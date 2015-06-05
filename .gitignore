@@ -1,1 +1,4 @@
 .idea
+.ruby-version
+.ruby-gemset
+-rvmrc
