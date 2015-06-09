@@ -1,5 +1,7 @@
 # Ruby Bootcamp
 
+[Course Dashboard](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share)
+
 ## Contents
 
 * [Exercise 1](exercise-1/runme.rb)
