@@ -1,16 +1,15 @@
-#String Gymnastics 1
-##Introduction
-Typically what makes our application unique is based on the input they ask for and what they do with it. Working with strings is something that we do on a daily basis. Luckily Ruby has some great support for string handling and manipulation.
+#Clever Collections
 ##Objectives
-- Start to become familiar with the String API
-- Dig deeper into what the collections APIs can do for you:
+- Write some simple ruby that works.
+- Use the debugger[put in url for dubber exercise/notes] to have a look around
+- Make use of the collections APIs in Ruby, they’re pretty nifty.
     - [Array](http://ruby-doc.org/core-2.1.6/Array.html)
     - [Hash](http://ruby-doc.org/core-2.1.6/Hash.html)
-
+    
 ##Exercise
-Using the code supplied in [string_gymnastics_1.rb](./string_gymnastics_1.rb), use the shopping list in conjunction with the price list to calculate the total price of the shopping.
+Using the code supplied in [clever_collections.rb](./clever_collections.rb), use the shopping list in conjunction with the price list to calculate the total price of the shopping.
 
-At the end of your script simply print a line of the format: 
-The price of the shopping list is: £pounds.pence
+At the end of your script simply print a line of the format: `The price of the shopping list is: £pounds.pence`
 
-Note: This time round, the shopping list is in a string instead of an array. You are going to need to use the String API to get to back to something you can work with.
+##Find 3 cool methods
+Find 3 cool methods on Hash and Array and show them off to someone in the group :)
