@@ -5,7 +5,7 @@ Typically what makes our application unique is based on the input they ask for a
 - Dig deeper into the [String](http://ruby-doc.org/core-2.1.6/String.html) and [Regexp](http://ruby-doc.org/core-2.1.6/Regexp.html) APIs
 
 ##Exercise
-Using the code supplied in (string_gymnastics_2.rb)[./string_gymnastics_2.rb], use the shopping list in conjunction with the price list to calculate the total price of the shopping.
+Using the code supplied in [string_gymnastics_2.rb](./string_gymnastics_2.rb), use the shopping list in conjunction with the price list to calculate the total price of the shopping.
 
 At the end of your script simply print a line of the format: 
 `The price of the shopping list is: £pounds.pence`
