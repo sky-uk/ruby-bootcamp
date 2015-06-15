@@ -1,15 +1,27 @@
-#Clever Collections
-##Objectives
-- Write some simple ruby that works.
-- Use the debugger[put in url for dubber exercise/notes] to have a look around
-- Make use of the collections APIs in Ruby, they’re pretty nifty.
-    - [Array](http://ruby-doc.org/core-2.1.6/Array.html)
-    - [Hash](http://ruby-doc.org/core-2.1.6/Hash.html)
-    
-##Exercise
-Using the code supplied in [clever_collections.rb](./clever_collections.rb), use the shopping list in conjunction with the price list to calculate the total price of the shopping.
+# Conditional Statements
+## Introduction
+We can’t do much without logic. The following exercises are a couple of computing problems, that you will have seen before. that you can use to flex your logical muscles on.
 
-At the end of your script simply print a line of the format: `The price of the shopping list is: £pounds.pence`
+##Objective
+Start to get familiar with some of the conditional statements in Ruby
+##Exercises
+Note: If you want to define a method or two during this exercise, you can do this by:
+```
+def your_method_name(your_parameter1, your_parameter2)
+  your_code_here
+  last_line #is returned from your methods (return keyword optional)
+end
+```
 
-##Find 3 cool methods
-Find 3 cool methods on Hash and Array and show them off to someone in the group :)
+### Exercise 1
+Write three functions that compute the sum of the numbers in a given list using a for-loop, a while-loop, and recursion.
+### Exercise 2
+Write a function that combines two lists by alternatingly taking elements. For example: given the two lists `[a, b, c]` and `[1, 2, 3]`, the function should return `[a, 1, b, 2, c, 3]`.
+### Exercise 3
+Write a function that computes the list of the first 100 Fibonacci numbers. By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two. As an example, here are the first 10 Fibonnaci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, and 34.
+
+###Questions
+What does the ‘and’ keyword do? Is there anything special about it?
+
+
+
