@@ -1,6 +1,6 @@
 # Modules
 ##Introduction
-As well as being a container for our code, Modules can be used to package and deliver functionality to completely unrealated classes.
+As well as being a container for our code, Modules can be used to package and deliver functionality to completely unrelated classes.
 
 Modules writen to be used in this way are called 'Mixins'
 
