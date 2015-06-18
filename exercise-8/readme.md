@@ -9,7 +9,7 @@ Modules writen to be used in this way are called 'Mixins'
 - Practice writing tests for Mixins
 
 ##Exercise
-In [lib/ruby_bootcamp/exercise_8](./lib/lib/ruby_bootcamp/exercise_8) you will find code for [Person](./lib/lib/ruby_bootcamp/exercise_8/person.rb) and [Robot](./lib/lib/ruby_bootcamp/exercise_8/robot.rb).
+In [lib/ruby_bootcamp/exercise_8](./lib/lib/ruby_bootcamp/exercise_8) you will find code for [Person](./lib/ruby_bootcamp/exercise_8/person.rb) and [Robot](./lib/ruby_bootcamp/exercise_8/robot.rb).
 
 You'll note that they have similar capability, but they represent things that are fundamentally different. This means that inheritance may not be the right way to remove the duplication that exists between them.
 
