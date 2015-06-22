@@ -1,6 +1,6 @@
 module RubyBootcamp
   module Exercise8
-    class Robot 
+    class Robot
       attr_reader :position
 
       def initialize(name)
@@ -27,7 +27,7 @@ module RubyBootcamp
         @goodbyes.sample
       end
 
-      def move(direction) 
+      def move(direction)
         plane,amount = nil, nil
         if  %i{left right}.include?(direction)
           plane, amount = :lattitude, (direction == :left ? 1 : -1)
@@ -57,16 +57,13 @@ module RubyBootcamp
         move :backwards
       end
 
-      def tell_me_the_time 
+      def tell_me_the_time
         say "#{greeting}, the time is #{Time.now}"
       end
 
       def fire_laser
-        shout 'firing laser"
+        shout 'firing laser'
       end
-
-
-
     end
   end
 end
