@@ -14,7 +14,7 @@ Using the code supplied in exercise10, right a Rakefile that:
 - can fix code formatting issues using sensible defaults.
 - by default runs the tests followed by the code formatting.
 
-**Hint:** take a look at the [RSPec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) and [RuboCop](https://github.com/bbatsov/rubocop) documentation
+**Hint:** take a look at the [RSpec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) and [RuboCop](https://github.com/bbatsov/rubocop) documentation
 
 ### Configure RuboCop
 You will notice that there are a few formatting issues that can not be automatically fixed.
