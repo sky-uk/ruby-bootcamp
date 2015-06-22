@@ -51,6 +51,6 @@ text_file3.txt
 
 You should also spend some time testing your task using what you've learnt in previous exercises. How would you test calling the Rake task? Can you break it?
 
-Note: Don't forget to add a helpful description so that users of your task can discover it.
+**Note:** Don't forget to add a helpful description so that users of your task can discover it.
 
 
