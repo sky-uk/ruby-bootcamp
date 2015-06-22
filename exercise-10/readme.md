@@ -34,17 +34,19 @@ The script should be defined in a `Rakefile` and the second parameter should be 
 The output should look like this:
 
 ```
-light.png
-lightning.png
-lightpost.png
-smile.jpg
-solar_system.jpg
-solutions.png
-star-tunnel.png
-summer_cloud.jpg
-summer_grass.jpg
-tabula-rasa.png
-teal-pixels.jpg
+csv_file1.csv
+csv_file2.csv
+csv_file3.csv
+csv_file4.csv
+csv_file5.csv
+image1.jpg
+image2.jpg
+image3.jpg
+image4.jpg
+image5.jpg
+text_file1.txt
+text_file2.txt
+text_file3.txt
 ```
 
 You should also spend some time testing your task using what you've learnt in previous exercises. How would you test calling the Rake task? Can you break it?
