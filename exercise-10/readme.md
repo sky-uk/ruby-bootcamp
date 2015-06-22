@@ -26,7 +26,7 @@ rake list[path,pattern]
 E.g:
 
 ```
-rake list[/path/to/directory,*.png]
+rake list[resources/,*.jpg]
 ```
 
 The script should be defined in a `Rakefile` and the second parameter should be optional. If omitted, the script should list all files in the directory.
