@@ -7,11 +7,23 @@ Pretty much every Ruby project you ever look at will have a 'Rakefile' and now i
 A lot of projects come with rake tasks that make using them easy.
 
 ## Thirdparty Tasks
+### Write a Rakefile
 Using the code supplied in exercise10, right a Rakefile that:
 
 - can be used to run the all of the tests
-- can gather code coverage for the production classes only
-- by default runs the tests followed by the code coverage
+- can fix code formatting issues using sensible defaults.
+- by default runs the tests followed by the code formatting.
+
+### Configure RuboCop
+You will notice that there are a few formatting issues that can not be automatically fixed.
+
+Work out how to use Rubocop to:
+
+- change the maximum allowed line length
+- disable the comments warning for split_set_spec.rb
+
+
+**Hint:** take a look at the [RSPec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) and [RuboCop](https://github.com/bbatsov/rubocop) documentation
 
 ## Create your own Rake Task
 
