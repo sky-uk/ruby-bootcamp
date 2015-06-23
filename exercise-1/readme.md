@@ -8,10 +8,10 @@ Objectives:
 ## Exercise
 ###Use the ‘ruby’ command
 Run: ruby -h to find out the different options that the ruby command supports 
+
 1. run the runme.rb file that is under ~/Projects/ruby-bootcamp/exercise-1
 2. run the same file use the option specifying the option that allows you to change the current directory.
-3. work out how to run the following line of ruby without putting it into a file: 
-puts “hello world”
+3. work out how to run the following line of ruby without putting it into a file: `puts “hello world”`
 
 ###The Interactive Ruby Shell (irb)
 IRB lets you run any commands you would run within your code in an interactive shell. This is very useful when you are trying to prototype something in particular.
