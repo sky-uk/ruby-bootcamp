@@ -10,7 +10,9 @@ Using the pry-debug in [debug_me.rb](./debug_me.rb)
 
 1. Find out what order the people have been shuffled into before they are printed to screen
 2. Look inside one of the objects representing John, David or Matz. Can you find the attribute that holds the data?
-    a. What’s the name of it?
-    b. What’s the class of that object?
+     
+    - What’s the name of it?
+    - What’s the class of that object?
+
 ###Find 3 cool functions
 Find 3 cool functions that Pry has and show them off to someone in the group :)
