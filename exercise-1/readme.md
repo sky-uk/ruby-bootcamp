@@ -1,10 +1,11 @@
 # Run Ruby
 ## Introduction
 On a daily basis you will most likely use your IDE to run code for you. Before we get to that however it’s important to know what’s behind the magic and learn to run your own code.
+
 Objectives:
 - Discover the ‘ruby’ command
 - Discover the ‘irb’ command
-- 
+
 ## Exercise
 ###Use the ‘ruby’ command
 Run: ruby -h to find out the different options that the ruby command supports 
