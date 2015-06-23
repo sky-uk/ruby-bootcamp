@@ -1,4 +1,4 @@
-module RubyBootcamp
+module RubyBootCamp
   module Exercise8
     class Person
       attr_reader :position

@@ -13,3 +13,4 @@
 * [Exercise 7](exercise-7/readme.md)
 * [Exercise 8](exercise-8/readme.md)
 * [Exercise 9](exercise-9/readme.md)
+* [Exercise 10](exercise-10/readme.md)
