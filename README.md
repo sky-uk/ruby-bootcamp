@@ -4,6 +4,8 @@
 
 ## Contents
 
+### Exercises
+
 * [Exercise 1](exercise-1/readme.md)
 * [Exercise 2](exercise-2/readme.md)
 * [Exercise 3](exercise-3/readme.md)
@@ -14,3 +16,8 @@
 * [Exercise 8](exercise-8/readme.md)
 * [Exercise 9](exercise-9/readme.md)
 * [Exercise 10](exercise-10/readme.md)
+
+### Workshops
+
+* [Logic](workshops/logic/readme.md)
+* [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
