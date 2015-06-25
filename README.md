@@ -21,6 +21,8 @@ Work through this presentation methodically and when you get to the end your don
 - Exception Handling
 
 
+## Exercises
+Copy in here about the exercises
 
 * [Exercise 1](exercise-1/readme.md) - content of exercise
 * [Exercise 2](exercise-2/readme.md)
