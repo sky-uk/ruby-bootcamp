@@ -10,19 +10,19 @@ Work through this presentation methodically and when you get to the end your don
 - This course assumes that you don't know Ruby but have are exerienced in another object oriented programming language, know TDD and at least one testing framework. Missing one of these things? Although it's not the core remit of the course to teach OO or TDD you will be doing lots of it and will have real opportunity to get stuck even more new things.
 
 ## Course Contents
-Rubies Documentation
-Debugging
-Logic
-Collections
-Strings and Regular expressions
-Symbols
-Classes
-Modules
-Exception Handling
+- Rubies Documentation
+- Debugging
+- Logic
+- Collections
+- Strings and Regular expressions
+- Symbols
+- Classes
+- Modules
+- Exception Handling
 
 
 
-* [Exercise 1](exercise-1/readme.md)
+* [Exercise 1](exercise-1/readme.md) - content of exercise
 * [Exercise 2](exercise-2/readme.md)
 * [Exercise 3](exercise-3/readme.md)
 * [Exercise 4](exercise-4/readme.md)
