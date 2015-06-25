@@ -10,7 +10,7 @@ Work through this presentation methodically and when you get to the end your don
 - This course assumes that you don't know Ruby but have are exerienced in another object oriented programming language, know TDD and at least one testing framework. Missing one of these things? Although it's not the core remit of the course to teach OO or TDD you will be doing lots of it and will have real opportunity to get stuck even more new things.
 
 ## Course Contents
-- Rubies Documentation
+- Ruby's Documentation
 - Debugging
 - Logic
 - Collections
