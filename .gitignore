@@ -4,3 +4,5 @@ bin/
 .ruby-version
 .ruby-gemset
 -rvmrc
+workshops/*/.bundle
+workshops/*/vendor
