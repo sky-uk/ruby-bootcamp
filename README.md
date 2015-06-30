@@ -21,3 +21,7 @@
 
 * [Logic](workshops/logic/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
+
+### Projects
+
+* [Twitter user interface](projects/twitter-user-interface/readme.md)
