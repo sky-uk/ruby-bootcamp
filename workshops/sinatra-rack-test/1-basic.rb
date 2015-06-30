@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'json'
 
 get '/' do
   "Hello world"
@@ -10,5 +11,6 @@ get '/unauthorized' do
 end
 
 get '/data.json' do
+  content_type 'application/json'
   JSON.generate({ some: 'data' })
 end
