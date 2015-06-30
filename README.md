@@ -21,3 +21,4 @@
 
 * [Logic](workshops/logic/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
+* [Sinatra Testing with `Rack::Test`](workshops/sinatra-rack-test/readme.md)
