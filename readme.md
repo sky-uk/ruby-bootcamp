@@ -34,3 +34,8 @@ Copy in here about the exercises
 * [Exercise 8](exercise-8/readme.md)
 * [Exercise 9](exercise-9/readme.md)
 * [Exercise 10](exercise-10/readme.md)
+
+### Workshops
+
+* [Logic](workshops/logic/readme.md)
+* [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
