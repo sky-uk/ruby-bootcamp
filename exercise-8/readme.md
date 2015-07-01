@@ -1,20 +1,7 @@
-# Modules
-##Introduction
-As well as being a container for our code, Modules can be used to package and deliver functionality to completely unrelated classes.
+#RSpec: Rock, Paper Scissor, Rock
 
-Modules writen to be used in this way are called 'Mixins'
+#Excercise
+We just watched a [video](https://www.codeschool.com/screencasts/rspec-3-best-practices) showing TDD in conjunction with RSpec3.
 
-##Objectives
-- Write a a Mixin
-- Practice writing tests for Mixins
+Implement your own version of Paper, Scissors, Rock. Try and go top down and use all that RSpec has to offer.
 
-##Exercise
-In [lib/ruby_bootcamp/exercise_8](./lib/ruby_bootcamp/exercise_8) you will find code for [Person](./lib/ruby_bootcamp/exercise_8/person.rb) and [Robot](./lib/ruby_bootcamp/exercise_8/robot.rb).
-
-You'll note that they have similar capability, but they represent things that are fundamentally different. This means that inheritance may not be the right way to remove the duplication that exists between them.
-
-Create sensible modules and the corresponding tests for them and the person and robot classes.
-
-### Extra credit
-- Find an efficient way to check that the module is in use
-- Both Person and Robot behave like walking talking things. Maybe shared examples could bring some benefit here? [Shared examples](https://www.relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples). 
