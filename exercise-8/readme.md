@@ -1,6 +1,7 @@
-#RSpec
+#RSpec: Rock, Paper Scissor, Rock
 
 #Excercise
-Copy your source code from the exercise 7 in to a directory called 'lib' in this one.
+We just watched a [video](https://www.codeschool.com/screencasts/rspec-3-best-practices) showing TDD in conjunction with RSpec3.
 
-test drive a class called.
+Implement your own version of Paper, Scissors, Rock. Try and go top down and use all that RSpec has to offer.
+
