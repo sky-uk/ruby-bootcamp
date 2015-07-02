@@ -1,16 +1,20 @@
-#The Animal Quiz
+# Modules
 ##Introduction
-It's time to pull together what we've done till now with a slightly larger exercise. The Animal Quiz is fun and should let you stretch your legs a little bit.
-The Animal Quiz requires well defined classes that know their role and some good business logic to glue them together.
+As well as being a container for our code, Modules can be used to package and deliver functionality to completely unrelated classes.
 
-Use this as an opportunity to identify anything that is not cemented in your learning yet and go back where necessary.
+Modules writen to be used in this way are called 'Mixins'
 
-##Objective
-- Use Ruby and its expressiveness to write something that reads well.
-- Use class and modules more extensively
-- Test drive those classes and modules using the available RSPec goodness
-- Interact with the commandline
-
+##Objectives
+- Write a a Mixin
+- Practice writing tests for Mixins
 
 ##Exercise
-Your mission should you choose to accept it lies waiting for you [here](./animal_quiz.pdf).
+In [lib/ruby_bootcamp/exercise_8](./lib/ruby_bootcamp/exercise_8) you will find code for [Person](./lib/ruby_bootcamp/exercise_8/person.rb) and [Robot](./lib/ruby_bootcamp/exercise_8/robot.rb).
+
+You'll note that they have similar capability, but they represent things that are fundamentally different. This means that inheritance may not be the right way to remove the duplication that exists between them.
+
+Create sensible modules and the corresponding tests for them and the person and robot classes.
+
+### Extra credit
+- Find an efficient way to check that the module is in use
+- Both Person and Robot behave like walking talking things. Maybe shared examples could bring some benefit here? [Shared examples](https://www.relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples). 

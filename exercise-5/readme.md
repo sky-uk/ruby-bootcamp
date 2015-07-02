@@ -1,6 +1,9 @@
 #String Gymnastics 1
 ##Introduction
 Typically what makes our application unique is based on the input they ask for and what they do with it. Working with strings is something that we do on a daily basis. Luckily Ruby has some great support for string handling and manipulation.
+
+This [video](http://www.pluralsight.com/training/player?author=alex-korban&name=ruby-fundamentals-module4&mode=live&clip=4&course=ruby-fundamentals) shows some of those methods in action.
+
 ##Objectives
 - Start to become familiar with the String API
 - Dig deeper into what the collections APIs can do for you:
