@@ -18,8 +18,8 @@ class Authenticator
   end
 end
 
-if Authenticator.authenticate('josh', 'password')
-  puts "You're authenticated!"
+if token = Authenticator.authenticate('josh', 'password')
+  puts "You're authenticated! Your token is #{token}."
 else
   puts "Not authorized."
 end
