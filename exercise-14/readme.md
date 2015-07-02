@@ -54,8 +54,8 @@ statement = Statement.new do
   from Date.parse('2015-01-26')
   to Date.parse('2015-02-25')
 
-  calls do
-    add '07716393769' do
+  call_charges do
+    call '07716393769' do
       date Date.parse('2015-02-01')
       duration "00:23:03"
       cost 1.13
