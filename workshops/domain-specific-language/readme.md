@@ -76,4 +76,31 @@ _Coding walk-through to be done in person with group._
 
 ## Solutions
 
+* [About blocks](1-about-blocks.rb)
 * [Building and parsing the DSL](1-build-and-parse.rb)
+
+
+## Extensions
+
+The current DSL is great, but somewhat limited. We want to be able to declare the Managing Director of the company. For this exercise, we'll assume that the MD is an existing employee.
+
+Assume we want to declare the MD like so:
+
+```ruby
+employee do
+  managing_director
+
+  first_name 'Tracy'
+  last_name 'Myers'
+  role 'Scrum Master'
+end
+```
+
+To be fetched like so:
+
+```ruby
+
+company.managing_director # => Employee object
+```
+
+This should return an employee object, just like `department.employees.first`. How would you do this?
