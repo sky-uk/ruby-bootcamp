@@ -12,7 +12,7 @@ Work through this presentation methodically and when you get to the end you're d
 
 ### Exercises
 
-Copy in here about the exercises
+Copy in here about the exercises.
 
 * [Exercise 1](exercise-1/readme.md)
 * [Exercise 2](exercise-2/readme.md)
@@ -28,6 +28,8 @@ Copy in here about the exercises
 
 
 ### Workshops
+
+Copy in here about the workshops.
 
 * [Logic](workshops/logic/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
