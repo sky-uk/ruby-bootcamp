@@ -30,5 +30,5 @@ Write an application that has a login in screen that will only let you see your 
 
 **Note:** The purpose of the exercise is to have a play with Sinatra so the username and password can be hard coded.
 
-Once you are in load the json and from the supplied [file] and render it using a templating engine of your choice.
+Once you are in load the json and from the supplied [file](./resources/bill.json) and render it using a templating engine of your choice.
 
