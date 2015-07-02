@@ -8,18 +8,19 @@ class Authenticator
   class << self
 
     def authenticate(username, password)
-      USERNAME == username &&
-      PASSWORD == password
+      if USERNAME == username && PASSWORD == password
+        SecureRandom.hex(16) # Or other token generation logic
+      end
     end
 
   end
 end
 
 post '/authenticate' do
-  if Authenticator.authenticate(params[:username], params[:password])
+  if token = Authenticator.authenticate(params[:username], params[:password])
     response = {
       success: true,
-      token: SecureRandom.hex(16)
+      token: token
     }
   else
     response = {
