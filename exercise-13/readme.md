@@ -11,7 +11,7 @@ get '/' do
   'hello world'
 end
 ```
-## Modulare
+## Modular
 ```
 require 'sinatra'
 class App < Sinatra::Base
@@ -23,6 +23,12 @@ end
 run App
 ```
 
+## Exercises
+Objectives:
+- Get to grips with writing Modular Sinatra applications
+- Test them throughly using
+- Implement Rakefiles for your projects
+
 ### View my Bill.
 Some things are not meant to be seen by everyone and you billing information is a good example. 
 
@@ -30,5 +36,9 @@ Write an application that has a login in screen that will only let you see your 
 
 **Note:** The purpose of the exercise is to have a play with Sinatra so the username and password can be hard coded.
 
-Once you are in read in the the json and from the supplied [file](./resources/bill.json) and render it using a templating engine of your choice.
+Once you are in read in the the json and from the supplied [file](./resources/bill.json) and render it using a [view templating engine](http://www.sinatrarb.com/intro.html#Views%20/%20Templates) of your choice.
 
+### Bill Service
+The bill data needs to come from some where and files are so yesterday. Write a service using Sinatra to serve the JSON that you used in the previous exercise.
+
+Once you've done this call this services from within you bill application.
