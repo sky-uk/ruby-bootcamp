@@ -27,6 +27,7 @@ Copy in here about the exercises.
 * [Exercise 11](exercise-11/readme.md)
 * [Exercise 12](exercise-12/readme.md)
 * [Exercise 13](exercise-13/readme.md)
+* [Exercise 14](exercise-14/readme.md)
 
 
 ### Workshops
