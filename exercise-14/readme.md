@@ -11,6 +11,7 @@ start_time = Time.now
 Wait.until do
   rand(9999) % 2 == 0
 end
+```
 
 This method should also take some optional arguments
 - retry_time - this is the amount of time it should wait before executing the block again
