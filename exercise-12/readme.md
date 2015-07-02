@@ -3,7 +3,7 @@ Having watched this [video](https://www.youtube.com/watch?v=iJ-ZsWtHTIg) and see
 
 In this exercise you are going to write your very own Rack web framework that we call Linguine.
 
-This framework will be specifcally designed to make writing multi lingual web applications a doddle.
+This framework will be specifcally designed to make writing applications that serve multi lingual content a doddle.
 
 ## Imagine this
 You are fast growing business and you currently have an application serving your homepage. You're a UK based company and the page that people see when they visit your site is naturally displayed in English. Things are going so well that you are planning to move in to Europe and you are going to need to translate your site. This could be expensive and very time consuming ... 
@@ -12,7 +12,7 @@ This is where Linguine steps in to the rescue or at least it will once you have 
 
 ## Required features
 ### Dynamic page translation.
-Implement a feature in to Linguine that will allow a user to append a locale to the URL to receive the translated version of a page.
+Implement a feature in to Linguine that will allow a user to append a locale extension to the URL to receive the translated version of a page.
 
 E.g. 
 `http://yoursite.com/home.de` to get the german translation of the page.
