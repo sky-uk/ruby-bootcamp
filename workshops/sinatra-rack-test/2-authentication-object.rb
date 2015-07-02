@@ -4,15 +4,15 @@
 # making this a lot simpler.
 
 class Authenticator
-
   USERNAME = 'josh'
   PASSWORD = 'password'
 
   class << self
 
     def authenticate(username, password)
-      USERNAME == username &&
-      PASSWORD == password
+      if USERNAME == username && PASSWORD == password
+        SecureRandom.hex(16) # Or other token generation logic
+      end
     end
 
   end
