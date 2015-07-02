@@ -17,9 +17,14 @@ Implement a feature in to Linguine that will allow a user to append a locale to 
 E.g. 
 `http://yoursite.com/home.de` to get the german translation of the page.
 
+#### The interface
+The interface should be seemless to users of your framework so Linguine should require them to little or ideally nothing to have this capability within their application.
+
+#### Getting translations
 The Bing [Translation API](https://www.microsoft.com/translator/getstarted.aspx) provides a nice [HTTP interface](https://msdn.microsoft.com/en-us/library/ff512387.aspx) that you can use to get translations from.
 
 Write your own client to connect to this service. HTTP clients like Faraday(https://github.com/lostisland/faraday) or [HTTParty](https://github.com/jnunemaker/httparty) should help with this. Note: Faraday is used a bit on other Sky projects.
+
 
 ### Caching
 Using an external service can have costs both in terms of time and money. Therefore we don't want to hit Bing for translations we have already got. Build a feature in to linguine so that it only retranslates content that it does not yet have the definitions for.
