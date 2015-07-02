@@ -1,4 +1,4 @@
-#Blocks
+#Blocks and Procs
 Blocks can be really good for writing very reusable fluent code.
 
 ## WaitUntil
