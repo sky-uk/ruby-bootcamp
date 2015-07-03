@@ -20,6 +20,16 @@ E.g.
 #### The interface
 The interface should be seemless to users of your framework so Linguine should require them to little or ideally nothing to have this capability within their application.
 
+Wouldn't it be great to write something like...
+```
+require 'linguine'
+class HomePage < Linguine
+  #Framework compatible code for returning your page content
+end
+
+run HomePage
+```
+
 #### Getting translations
 The Bing [Translation API](https://www.microsoft.com/translator/getstarted.aspx) provides a nice [HTTP interface](https://msdn.microsoft.com/en-us/library/ff512387.aspx) that you can use to get translations from.
 
