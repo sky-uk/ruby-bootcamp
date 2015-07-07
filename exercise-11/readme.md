@@ -12,7 +12,7 @@ A lot of projects come with rake tasks that make using them easy.
 
 ### Write a Rakefile
 
-Using the code supplied in exercise10, right a Rakefile that:
+Using the code supplied in exercise10, write a Rakefile that:
 
 - can be used to run the all of the tests
 - can fix code formatting issues using sensible defaults.
