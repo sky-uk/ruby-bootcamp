@@ -28,11 +28,6 @@ You should deliver a deployed Sinatra application which serves as an alternative
 * Deploy the application to Heroku
 
 
-## Example Interface
-
-![Home](http://wearest.ac/1cyZV+)
-
-
 ## Bonus Points
 
 * Highlight usernames and hashtags in tweets
