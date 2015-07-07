@@ -2,9 +2,11 @@
 
 Welcome to the Ruby Bootcamp!
 
-Start with the [Course Dashboard](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share). This is an interactive presentation that contains the material you will be learning, the exercises to help cement that learning and the suggested flow to go through.
+## Getting Started
 
-Work through this presentation methodically and when you get to the end you're done :)
+The course revolves around the [course dashboard](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share) presentation. This is an interactive presentation that contains the material you will be learning, the exercises to help cement that learning and the suggested flow to go through.
+
+This repository contains exercises to compliment the presentation flow, which you can work through at your own pace. Once you've completed the presentation and these exercises, you're done!
 
 
 ## Materials
