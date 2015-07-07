@@ -12,9 +12,12 @@ This repository contains exercises to compliment the presentation flow, which yo
 ## Materials
 
 
-### Exercises
+### Dashboard
 
-Copy in here about the exercises.
+You can find the [main course dashboard here](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share).
+
+
+### Exercises
 
 * [Exercise 1](exercise-1/readme.md)
 * [Exercise 2](exercise-2/readme.md)
@@ -33,8 +36,6 @@ Copy in here about the exercises.
 
 
 ### Workshops
-
-Copy in here about the workshops.
 
 * [Logic](workshops/logic/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
