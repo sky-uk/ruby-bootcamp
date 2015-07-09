@@ -37,7 +37,7 @@ run App
 Objectives:
 
 - Get to grips with writing Modular Sinatra applications
-- Test them throughly using
+- Test them throughly using Rack::Test etc...
 - Implement Rakefiles for your projects
 
 

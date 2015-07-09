@@ -24,7 +24,9 @@ After you have got admin rights you are going to need to do a few bits and piece
 
 ## Get the training VM up and running
 
-Throughout this course we will be using a virtual machine that has all the software that you require on it. View this video to see how to get the VM going.
+Throughout this course we will be using a virtual machine that has all the software that you require on it. View this video to see how to get the VM going. 
+
+**Note: ** the password for the VM is `password` :)
 
 
 ## Checkout the course exercises
