@@ -11,7 +11,7 @@ We can’t do much without logic. The following exercises are a couple of comput
 Start to get familiar with some of the conditional statements in Ruby
 
 
-## Exercises
+## Tasks
 
 Note: If you want to define a method or two during this exercise, you can do this by:
 
