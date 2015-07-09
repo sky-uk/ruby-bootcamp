@@ -18,6 +18,8 @@ You should deliver a deployed Sinatra application which serves as an alternative
 * Allow a user to favorite tweets
 * Allow a user to retweet tweets
 
+Use of JavaScript is not required. This is a test of your Ruby knowledge, not building single page JavaScript applications.
+
 
 ## Tools and Techniques
 
