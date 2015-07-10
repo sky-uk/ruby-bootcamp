@@ -26,4 +26,4 @@ At the end of your script simply print a line of the format:
 The price of the shopping list is: £pounds.pence
 ```
 
-Note: This time round, the shopping list is in a string instead of an array. You are going to need to use the String API to get to back to something you can work with.
+**Note:** This time round, the shopping list is in a string instead of an array. You are going to need to use the String API to get back to something you can work with.
