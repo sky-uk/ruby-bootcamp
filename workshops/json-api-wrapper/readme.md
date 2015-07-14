@@ -5,11 +5,12 @@
 
 We're going to walk through building a simple API wrapper for [jsontest](http://www.jsontest.com). JSON Test is a sample API which is useful for testing API interactions.
 
-There are 3 parts to this workshop:
+There are 4 parts to this workshop:
 
 * Writing a simple API wrapper
 * Refactoring the wrapper
-* Using meta programming to further refactor and simplify
+* Using metaprogramming to further refactor and simplify
+* Using metaprogramming without method missing
 
 We'll be using the following endpoints from JSON Test:
 
@@ -50,4 +51,5 @@ _Coding walk-through to be done in person with group._
 
 * [Writing a simple API wrapper](1-basic.rb)
 * [Refactoring the wrapper](2-refactored.rb)
-* [Using meta programming to further refactor and simplify](3-metaprogramming.rb)
+* [Using metaprogramming to further refactor and simplify](3-metaprogramming.rb)
+* [Using metaprogramming without method missing](4-metaprogramming-without-method-missing.rb)
