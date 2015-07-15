@@ -4,7 +4,7 @@
 ## Objectives
 
 - Write some simple ruby that works.
-- Use the debugger[put in url for dubber exercise/notes] to have a look around
+- Use the [debugger](https://github.com/jackatsky/ruby-bootcamp/blob/master/exercise-2/readme.md) to have a look around
 - Make use of the collections APIs in Ruby, they’re pretty nifty.
     - [Array](http://ruby-doc.org/core-2.1.6/Array.html)
     - [Hash](http://ruby-doc.org/core-2.1.6/Hash.html)
