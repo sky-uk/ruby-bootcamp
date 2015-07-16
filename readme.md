@@ -39,6 +39,7 @@ You can find the [main course dashboard here](http://prezi.com/adnfktg98mli/?utm
 ### Workshops
 
 * [Logical statements](workshops/logical-statements/readme.md)
+* [About blocks](workshops/about-blocks/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
 * [Sinatra Testing with `Rack::Test`](workshops/sinatra-rack-test/readme.md)
 * [Domain Specific Language (DSL)](workshops/domain-specific-language/readme.md)
