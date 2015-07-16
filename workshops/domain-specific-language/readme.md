@@ -76,8 +76,7 @@ _Coding walk-through to be done in person with group._
 
 ## Solutions
 
-* [About blocks](1-about-blocks.rb)
-* [Building and parsing the DSL](2-build-and-parse.rb)
+* [Building and parsing the DSL](1-build-and-parse.rb)
 
 
 ## Extensions
