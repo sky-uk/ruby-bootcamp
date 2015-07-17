@@ -41,7 +41,7 @@ Objectives:
 - Implement Rakefiles for your projects
 
 
-### View my Bill
+### Task 1: View my Bill
 
 Some things are not meant to be seen by everyone and you billing information is a good example.
 
@@ -52,8 +52,8 @@ Write an application that has a login in screen that will only let you see your 
 Once you are logged in, read in the the json and from the supplied [file](./resources/bill.json) and render it using a [view templating engine](http://www.sinatrarb.com/intro.html#Views%20/%20Templates) of your choice.
 
 
-### Bill Service
+### Task 2: Bill Service
 
-The bill data needs to come from some where and files are so yesterday. Write a service using Sinatra to serve the JSON that you used in the previous exercise.
+The bill data needs to come from some where and files are so yesterday. Write a service using Sinatra to serve the JSON that you used in the previous task.
 
 Once you've done this call this services from within you bill application.
