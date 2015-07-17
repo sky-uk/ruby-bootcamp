@@ -5,7 +5,7 @@
 
 As well as being a container for our code, Modules can be used to package and deliver functionality to completely unrelated classes.
 
-Modules writen to be used in this way are called 'Mixins'
+Modules writen to be used in this way are called 'Mixins'.
 
 
 ## Objectives
@@ -16,7 +16,7 @@ Modules writen to be used in this way are called 'Mixins'
 
 ## Exercise
 
-In [lib/ruby_bootcamp/exercise_8](./lib/ruby_bootcamp/exercise_8) you will find code for [Person](./lib/ruby_bootcamp/exercise_8/person.rb) and [Robot](./lib/ruby_bootcamp/exercise_8/robot.rb).
+In this folder you will find code for [Person](person.rb) and [Robot](robot.rb).
 
 You'll note that they have similar capability, but they represent things that are fundamentally different. This means that inheritance may not be the right way to remove the duplication that exists between them.
 
