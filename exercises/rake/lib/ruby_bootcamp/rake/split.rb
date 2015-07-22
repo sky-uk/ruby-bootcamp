@@ -1,5 +1,5 @@
 module RubyBootcamp
-  module Exercise10
+  module Rake 
     class Split
       attr_reader :upper, :lower
       attr_accessor :value

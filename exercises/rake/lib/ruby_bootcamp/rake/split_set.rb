@@ -1,6 +1,6 @@
 require_relative 'split'
 module RubyBootcamp
-  module Exercise10
+  module Rake 
     class SplitSet < Hash
       class InvalidSplitException < Exception;
       end
