@@ -17,26 +17,11 @@ This repository contains exercises to compliment the presentation flow, which yo
 
 You can find the [main course dashboard here](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share).
 
-
-### Exercises
-
-* [Exercise 1](exercise-1/readme.md)
-* [Exercise 2](exercise-2/readme.md)
-* [Exercise 3](exercise-3/readme.md)
-* [Exercise 4](exercise-4/readme.md)
-* [Exercise 5](exercise-5/readme.md)
-* [Exercise 6](exercise-6/readme.md)
-* [Exercise 7](exercise-7/readme.md)
-* [Exercise 8](exercise-8/readme.md)
-* [Exercise 9](exercise-9/readme.md)
-* [Exercise 10](exercise-10/readme.md)
-* [Exercise 11](exercise-11/readme.md)
-* [Exercise 12](exercise-12/readme.md)
-* [Exercise 13](exercise-13/readme.md)
-* [Exercise 14](exercise-14/readme.md)
-
+Exercises:
+list
 
 ### Workshops
+There will be guided workshops, throughout the course. These will give you a deeper understanding of how the things you are learning glue together.
 
 * [Logical statements](workshops/logical-statements/readme.md)
 * [About blocks](workshops/about-blocks/readme.md)
