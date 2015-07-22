@@ -18,7 +18,8 @@ This repository contains exercises to compliment the presentation flow, which yo
 You can find the [main course dashboard here](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share).
 
 Exercises:
-list
+The exercises for the course can be found in the [exercises](./exercises) directory. The course [dashboard](# Dashboard) will take you through the content and tell you which exercise to do when to complement what you are reading/watching.
+
 
 ### Workshops
 There will be guided workshops, throughout the course. These will give you a deeper understanding of how the things you are learning glue together.
