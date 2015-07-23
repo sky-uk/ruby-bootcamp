@@ -10,10 +10,6 @@ class Client
     @host = host
   end
 
-  def respond_to?(name)
-    SUPPORTED_SUBDOMAINS.include?(name.to_s) || super
-  end
-
   SUPPORTED_SUBDOMAINS.each do |name|
 
     define_method(name) do |params = {}|
