@@ -46,8 +46,8 @@ The overall `Statement` class should have a to_json method that when you call it
     "total": 1.23,
     "callCharges": {
       "calls": [
-        { "called": "07716393769", "date": ', "duration": "00:23:03", "cost": 1.13 },
-        { "called": "07716393769", "duration": "00:23:03", "cost": 0.20 }
+        { "called": "07716393769", "date": "2015-01-26", "duration": "00:23:03", "cost": 1.13 },
+        { "called": "07716393769", "date": "2015-01-26", "duration": "00:23:03", "cost": 0.20 }
 
       ]
     }

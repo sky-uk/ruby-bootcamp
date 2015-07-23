@@ -3,10 +3,10 @@
 #
 
 def many_yields
-  yield(:peanut)
-  yield(:butter)
-  yield(:and)
-  yield(:jelly)
+  yield('peanut')
+  yield('butter')
+  yield('and')
+  yield('jelly')
 end
 
 r = []
