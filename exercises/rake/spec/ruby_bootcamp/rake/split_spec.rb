@@ -1,6 +1,6 @@
 require 'ostruct'
-require 'ruby_bootcamp/exercise_10/split'
-describe RubyBootcamp::Exercise10::Split do
+require 'ruby_bootcamp/rake/split'
+describe RubyBootcamp::Rake::Split do
   describe '#==' do
     subject do
       described_class.new(0,25, :value)
