@@ -1,7 +1,7 @@
 require 'ostruct'
-require 'ruby_bootcamp/exercise_10/split_set'
+require 'ruby_bootcamp/rake/split_set'
 module RubyBootcamp
-  module Exercise10
+  module Rake 
     describe SplitSet do
 
       let(:value_1) { OpenStruct.new(id: 1) }
