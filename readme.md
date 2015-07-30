@@ -1,7 +1,21 @@
 # Ruby Bootcamp
 
-Welcome to the Ruby Bootcamp!
+Welcome to the Ruby Bootcamp. The bootcamp is a conversion course, designed to take programmers who are versed in another laguage and teach them Ruby.
 
+Things we cover in this course include:
+- Debugging
+- Variables
+- Strings
+- Collections
+- Classes
+- Modules
+- Blocks and procs
+- RSpec
+- Rake
+- Cucumber
+- Rack
+- Sinatra
+- And a lot more besides
 
 ## Getting Started
 
@@ -10,16 +24,12 @@ The course revolves around the [course dashboard](http://prezi.com/adnfktg98mli/
 This repository contains exercises to compliment the presentation flow, which you can work through at your own pace. Once you've completed the presentation and these exercises, you're done!
 
 
-## Materials
-
-
+## What's in the Bootcamp?
 ### Dashboard
-
-You can find the [main course dashboard here](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share).
+As mentinoed above, the [course dashboard](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share) contains the overarching material for the course. It prescribes all of the things to read and do and the order to do them in. You should use the dashboard to guide you through the course.
 
 ### Exercises:
 The exercises for the course can be found in the [exercises](./exercises) directory. The course [dashboard](#dashboard) will take you through the content and tell you which exercise to do when to complement what you are reading/watching.
-
 
 ### Workshops
 There will be guided workshops, throughout the course. These will give you a deeper understanding of how the things you are learning glue together.
@@ -31,9 +41,9 @@ There will be guided workshops, throughout the course. These will give you a dee
 * [Domain Specific Language (DSL)](workshops/domain-specific-language/readme.md)
 
 
-### Projects
+### Final Project
+At the end of the course there is a larger project for you to get your teeth in to. This will require the sum of all of the things you have learnt. Fancy a peek? take a [look here](projects/twitter-user-interface/readme.md)
 
-* [Twitter user interface](projects/twitter-user-interface/readme.md)
 
 
 ## Notes
