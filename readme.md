@@ -47,6 +47,7 @@ The exercises for the course can be found in the [exercises](./exercises) direct
 There will be guided workshops, throughout the course. These will give you a deeper understanding of how the things you are learning glue together.
 
 * [Logical statements](workshops/logical-statements/readme.md)
+* [Exceptions](workshops/exceptions/readme.md)
 * [About blocks](workshops/about-blocks/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
 * [Sinatra Testing with `Rack::Test`](workshops/sinatra-rack-test/readme.md)
