@@ -31,7 +31,7 @@ Throughout this course we will be using a virtual machine that has all the softw
 
 [LINK]
 
-**Note: ** the password for the VM is `password` :)
+**Note:** the password for the VM is `password` :)
 
 
 ## Checkout the course exercises
