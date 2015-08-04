@@ -9,3 +9,8 @@ Ruby provides plenty of ways to write logical statements, this workshop aims to 
 ## Walk-through
 
 _Coding walk-through to be done in person with group._
+
+
+## Solutions
+
+* [Logic](logic.rb)
