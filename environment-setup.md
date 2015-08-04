@@ -29,8 +29,6 @@ After you have got administrator rights you are going to need to do a few bits a
 
 Throughout this course we will be using a virtual machine that has all the software that you require on it.
 
-[LINK]
-
 **Note:** the password for the VM is `password` :)
 
 
