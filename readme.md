@@ -42,8 +42,8 @@ There will be guided workshops, throughout the course. These will give you a dee
 
 
 ### Final Project
-At the end of the course there is a larger project for you to get your teeth in to. This will require the sum of all of the things you have learnt. Fancy a peek? take a [look here](projects/twitter-user-interface/readme.md)
 
+At the end of the course there is a larger project for you to get your teeth in to. This will require the sum of all of the things you have learned. Fancy a peek? take a [look here](project/readme.md)
 
 
 ## Notes
