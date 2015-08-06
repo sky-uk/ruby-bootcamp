@@ -53,7 +53,7 @@ run!
 
 def run!
   raise ArgumentError, "This is a basic exception."
-rescue => e
+rescue ArgumentError => e
   puts e.class
   puts e.message
 end

@@ -2,6 +2,8 @@
 # Explicit Block
 #
 
+add_one = lambda { |n| n + 1 }
+
 def method_with_explicit_block(&block)
   block.call(10)
 end

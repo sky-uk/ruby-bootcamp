@@ -2,6 +2,11 @@
 # Block Affecting Outer Variables
 #
 
+def method_with_block
+  result = yield
+  result
+end
+
 r = :initial_value
 
 method_with_block { r = :modified_in_a_block }

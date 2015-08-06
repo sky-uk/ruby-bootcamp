@@ -13,4 +13,4 @@ r = []
 
 many_yields { |item| r << item }
 
-puts r
+puts r.inspect
