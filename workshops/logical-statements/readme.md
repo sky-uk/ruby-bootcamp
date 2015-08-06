@@ -13,4 +13,4 @@ _Coding walk-through to be done in person with group._
 
 ## Solutions
 
-* [Logic](logic.rb)
+* [Logic](1-logic.rb)

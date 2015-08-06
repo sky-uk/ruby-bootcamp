@@ -13,4 +13,4 @@ _Coding walk-through to be done in person with group._
 
 ## Solutions
 
-* [Exceptions](exceptions.rb)
+* [Exceptions](1-exceptions.rb)
