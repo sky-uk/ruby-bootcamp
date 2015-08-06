@@ -1,4 +1,3 @@
-```ruby
 require 'rake'
 
 shared_context :rake do
@@ -20,4 +19,3 @@ describe 'files.rake' do
     end
   end
 end
-```
