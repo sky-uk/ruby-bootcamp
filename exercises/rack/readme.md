@@ -44,7 +44,7 @@ run HomePage
 
 The Bing [Translation API](https://www.microsoft.com/translator/getstarted.aspx) provides a nice [HTTP interface](https://msdn.microsoft.com/en-us/library/ff512387.aspx) that you can use to get translations from.
 
-Write your own client to connect to this service. HTTP clients like Faraday(https://github.com/lostisland/faraday) or [HTTParty](https://github.com/jnunemaker/httparty) should help with this. Note: Faraday is used a bit on other Sky projects.
+Write your own client to connect to this service. HTTP clients like [Faraday](https://github.com/lostisland/faraday) or [HTTParty](https://github.com/jnunemaker/httparty) should help with this. Note: Faraday is used a bit on other Sky projects.
 
 
 ### Caching
