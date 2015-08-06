@@ -28,17 +28,23 @@ E.g. `http://yoursite.com/home.de` to get the german translation of the page.
 
 The interface should be seemless to users of your framework so Linguine should require them to little or ideally nothing to have this capability within their application.
 
-Wouldn't it be great to write something like...
+Wouldn't it be great to write something like... (This is a just an example and you're free to do whatever you can dream up)
 
 ```
 require 'linguine'
-class HomePage < Linguine
-  #Framework compatible code for returning your page content
+class MySite < Linguine
+  page '/' do
+    'Welcome to the home page' # Html could be rendered here
+  end
+  
+  page '/about' do
+    'some interesting information'
+  end
 end
 
-run HomePage
+run MySite
 ```
-
+They key thing about the example here, is that all of the nitty gritty regarding translation is hidden away from the user.
 
 #### Getting translations
 
