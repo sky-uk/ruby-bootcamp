@@ -203,7 +203,7 @@ Key areas to touch on:
 
 ### Exceptions
 
-The aim of this short workshop is to introduce candidates to exceptions, how to rescue from them, and how to use `ensure`.
+The aim of this workshop is to introduce candidates to exceptions, how to rescue from them, and how to use `ensure`.
 
 Key areas to touch on:
 
@@ -217,9 +217,19 @@ Key areas to touch on:
 
 ### About blocks
 
-```
-TODO
-```
+The aim of this workshop is to introduce candidates to Ruby's block syntax (via both the `yield` keyword and explicit procs and lambdas).
+
+Key areas to touch on:
+
+* Implicit blocks
+* Explicit blocks
+* `block_given?`
+* Procs are objects, blocks are part of Ruby's syntax
+* Blocks are part of the syntax of a method call
+* Both `proc` and `lambda` return Proc objects
+* Lambdas assert arity (number of passed arguments)
+* Return inside a lamba returns flow to the outer code scope
+* Return inside a proc is executed in the outer scope (as if inside that scope directly)
 
 
 ### Building a JSON API wrapper with `Net::HTTP`
