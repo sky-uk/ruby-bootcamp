@@ -203,9 +203,16 @@ Key areas to touch on:
 
 ### Exceptions
 
-```
-TODO
-```
+The aim of this short workshop is to introduce candidates to exceptions, how to rescue from them, and how to use `ensure`.
+
+Key areas to touch on:
+
+* A generic `raise` without an exception class
+* The importance of more specific exceptions (don't rescue `Exception` if you know what you're trying to rescue from)
+* Multiple rescue statements
+* `begin`/`end` syntax and how you don't need it when inside a method definition
+* Getting stack trace and exception information from a rescue
+* Using `ensure`
 
 
 ### About blocks
