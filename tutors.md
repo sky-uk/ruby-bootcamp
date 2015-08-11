@@ -2,8 +2,10 @@
 
 The purpose of this guide is to provide information for anyone delivering this learning material.
 
+
 ## Contents
 
+* [Slack](#slack)
 * [Exercises](#exercises)
   * [animal_quiz](#animal_quiz)
   * [blocks_and_procs](#blocks_and_procs)
@@ -26,6 +28,13 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [Building a JSON API wrapper with `Net::HTTP`](#building-a-json-api-wrapper-with-nethttp)
   * [Sinatra Testing with `Rack::Test`](#sinatra-testing-with-racktest)
   * [Domain Specific Language (DSL)](#domain-specific-language-dsl)
+
+
+## Slack
+
+```
+TODO
+```
 
 
 ## Exercises
@@ -181,9 +190,15 @@ end
 
 ### Logical statements
 
-```
-TODO
-```
+The aim of this short workshop is to introduce candidates to the many different ways to assign and assert variable values.
+
+Key areas to touch on:
+
+* Using an inline `if`/`unless` usually only done for small assertions
+* Explain precedence related issues with ternary expressions (e.g. `true ? something + 1 : something || other`)
+* Explain memoization
+* Introduce the `unless` keyword
+* Explain case statements and how they can be used to assert an objects class
 
 
 ### Exceptions
