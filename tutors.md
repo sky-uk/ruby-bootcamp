@@ -2,6 +2,31 @@
 
 The purpose of this guide is to provide information for anyone delivering this learning material.
 
+## Contents
+
+* [Exercises](#exercises)
+  * [animal_quiz](#animal_quiz)
+  * [blocks_and_procs](#blocks_and_procs)
+  * [classes](#classes)
+  * [collections](#collections)
+  * [conditional-statements](#conditional-statements)
+  * [debugging](#debugging)
+  * [modules](#modules)
+  * [rack](#rack)
+  * [rake](#rake)
+  * [rspec](#rspec)
+  * [run-ruby](#run-ruby)
+  * [sinatra](#sinatra)
+  * [strings1](#strings1)
+  * [strings2](#strings2)
+* [Workshops](#workshops)
+  * [Logical statements](#logical-statements)
+  * [Exceptions](#exceptions)
+  * [About blocks](#about-blocks)
+  * [Building a JSON API wrapper with `Net::HTTP`](#building-a-json-api-wrapper-with-nethttp)
+  * [Sinatra Testing with `Rack::Test`](#sinatra-testing-with-racktest)
+  * [Domain Specific Language (DSL)](#domain-specific-language-dsl)
+
 
 ## Exercises
 
