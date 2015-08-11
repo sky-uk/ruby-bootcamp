@@ -73,7 +73,7 @@ TODO
 
 ### strings2
 
-The purpose of this exercises is to demonstrate understanding and well structured use of objects. The solution should include some sort of real world modeling of a basket, checkout and price list. For example:
+The purpose of this exercise is to demonstrate understanding and well structured use of objects. The solution should include some sort of real world modeling of a basket, checkout and price list. For example:
 
 ```ruby
 catalog = Catalog.new(raw_price_list)
