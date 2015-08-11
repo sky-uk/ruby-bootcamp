@@ -234,9 +234,14 @@ Key areas to touch on:
 
 ### Building a JSON API wrapper with `Net::HTTP`
 
-```
-TODO
-```
+The aim of this workshop is to introduce candidates to `Net::HTTP` and some elements of meta programming.
+
+Key areas to touch on:
+
+* Using the `URI` object to construct valid URLs
+* Refactoring duplication between the three similar endpoint methods
+* Using method missing to automatically call certain URLs on jsontest.com
+* Using `define_method` to define supported API methods
 
 
 ### Sinatra Testing with `Rack::Test`
