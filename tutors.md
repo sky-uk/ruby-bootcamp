@@ -246,13 +246,23 @@ Key areas to touch on:
 
 ### Sinatra Testing with `Rack::Test`
 
-```
-TODO
-```
+The aim of this workshop is to introduce candidates to the basics of testing Sinatra with `Rack::Test`.
+
+Key areas to touch on:
+
+* Sinatra DSL (basic `get`/`post` calls)
+* Writing a simple JSON service
+* Using rack test to `post` data to an endpoint
+* Using `assert` and `last_response`
 
 
 ### Domain Specific Language (DSL)
 
-```
-TODO
-```
+The aim of this workshop is to introduce candidates to `instance_eval` and basic data modeling in Ruby.
+
+Key areas to touch on:
+
+* Splitting up the DSL into separate objects (`Company`, `Department` and `Employee`)
+* Using `instance_eval` and blocks to call methods on object instances
+* Using `define_method` to DRY up method definitions for Employee (such as `first_name` and `last_name`)
+* Expanding on the DSL to add a `managing_director` attribute (this may be used as an extension for candidates to do after the workshop)
