@@ -8,67 +8,93 @@ The purpose of this guide is to provide information for anyone delivering this l
 
 ### animal_quiz
 
+```
 TODO
+```
 
 
 ### blocks_and_procs
 
+```
 TODO
+```
 
 
 ### classes
 
+```
 TODO
+```
 
 
 ### collections
 
+```
 TODO
+```
 
 
 ### conditional-statements
 
+```
 TODO
+```
 
 
 ### debugging
 
+```
 TODO
+```
 
 
 ### modules
 
+```
 TODO
+```
 
 
 ### rack
 
+```
 TODO
+```
 
 
 ### rake
 
+```
 TODO
+```
 
 
 ### rspec
 
+```
 TODO
+```
 
 
 ### run-ruby
 
+```
 TODO
+```
 
 
 ### sinatra
 
+```
 TODO
+```
 
 
 ### strings1
 
+```
 TODO
+```
 
 
 ### strings2
@@ -130,29 +156,41 @@ end
 
 ### Logical statements
 
+```
 TODO
+```
 
 
 ### Exceptions
 
+```
 TODO
+```
 
 
 ### About blocks
 
+```
 TODO
+```
 
 
 ### Building a JSON API wrapper with `Net::HTTP`
 
+```
 TODO
+```
 
 
 ### Sinatra Testing with `Rack::Test`
 
+```
 TODO
+```
 
 
 ### Domain Specific Language (DSL)
 
+```
 TODO
+```
