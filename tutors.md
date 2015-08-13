@@ -40,13 +40,6 @@ TODO
 ## Exercises
 
 
-### animal_quiz
-
-```
-TODO
-```
-
-
 ### blocks_and_procs
 
 ```
@@ -131,9 +124,16 @@ TODO
 ```
 
 
+### animal_quiz
+
+```
+TODO
+```
+
+
 ### strings2
 
-The purpose of this exercise is to demonstrate understanding and well structured use of objects. The solution should include some sort of real world modeling of a basket, checkout and price list. For example:
+The purpose of this exercise is to demonstrate string manipulation methods such as `String#scan` and `String#split`. For extra points the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
 
 ```ruby
 catalog = Catalog.new(raw_price_list)
@@ -150,7 +150,13 @@ puts "The price of the shopping list is: £%.2f" % (checkout.total.to_f / 100)
 
 As with the previous exercise, the shopping list should use `String#split` to turn both strings into more usable objects to lookup the prices from.
 
-The raw price list should make use of regular expressions and `String#scan` to turn the list into a hash. An example of this implementation would look something like:
+The raw price list should make use of regular expressions and `String#scan` to turn the list into a hash. Such as:
+
+```ruby
+matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
+```
+
+A more complete example of this (making use of objects) could look something like:
 
 ```ruby
 class Catalog
