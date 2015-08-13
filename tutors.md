@@ -75,10 +75,59 @@ It would be nice to see separate objects for `Statement`, `CallCollection` and `
 
 ### classes
 
-```
-TODO
+The purpose of this exercise is to expand on the code in [strings2](#strings2). Ideally the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
+
+```ruby
+catalog = Catalog.new(raw_price_list)
+basket = Basket.new(raw_shopping_list)
+checkout = Checkout.new(catalog, basket)
+checkout.process
 ```
 
+The end string that is outputted may be handled by another object or just printed directly, similar to:
+
+```ruby
+puts "The price of the shopping list is: £%.2f" % (checkout.total.to_f / 100)
+```
+
+As with the previous exercise, the shopping list should use `String#split` to turn both strings into more usable objects to lookup the prices from and `String#scan` to turn the list into a hash.
+
+For example:
+
+```ruby
+class Catalog
+  PARSE_REGEX = /(\w+)\s=\s£?([\d.]+)p?/
+
+  def initialize(raw_prices)
+    @prices = parse(raw_prices)
+  end
+
+  def parse(raw)
+    matches = raw.scan(PARSE_REGEX)
+    matches.inject({}) do |buffer, match|
+      buffer.tap do |hash|
+        name = match[0]
+        price = coerce_price(match[1])
+        hash[name] = price
+      end
+    end
+  end
+
+  def lookup(name)
+    @prices[name]
+  end
+
+private
+
+  def coerce_price(raw)
+    price = raw.include?('.') ? (raw.to_f * 100) : raw
+    price.to_i
+  end
+end
+
+catalog = Catalog.new(price_list)
+catalog.lookup('orange') # => 10
+```
 
 ### collections
 
@@ -159,20 +208,7 @@ TODO
 
 ### strings2
 
-The purpose of this exercise is to demonstrate string manipulation methods such as `String#scan` and `String#split`. For extra points the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
-
-```ruby
-catalog = Catalog.new(raw_price_list)
-basket = Basket.new(raw_shopping_list)
-checkout = Checkout.new(catalog, basket)
-checkout.process
-```
-
-The end string that is outputted may be handled by another object or just printed directly, similar to:
-
-```ruby
-puts "The price of the shopping list is: £%.2f" % (checkout.total.to_f / 100)
-```
+The purpose of this exercise is to demonstrate string manipulation methods such as `String#scan` and `String#split`.
 
 As with the previous exercise, the shopping list should use `String#split` to turn both strings into more usable objects to lookup the prices from.
 
@@ -180,40 +216,6 @@ The raw price list should make use of regular expressions and `String#scan` to t
 
 ```ruby
 matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
-```
-
-A more complete example of this (making use of objects) could look something like:
-
-```ruby
-class Catalog
-  PARSE_REGEX = /(\w+)\s=\s£?([\d.]+)p?/
-
-  def initialize(raw_prices)
-    @prices = parse(raw_prices)
-  end
-
-  def parse(raw)
-    matches = raw.scan(PARSE_REGEX)
-    matches.inject({}) do |buffer, match|
-      buffer.tap do |hash|
-        name = match[0]
-        price = coerce_price(match[1])
-        hash[name] = price
-      end
-    end
-  end
-
-  def lookup(name)
-    @prices[name]
-  end
-
-private
-
-  def coerce_price(raw)
-    price = raw.include?('.') ? (raw.to_f * 100) : raw
-    price.to_i
-  end
-end
 ```
 
 
