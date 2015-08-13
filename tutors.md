@@ -129,11 +129,12 @@ catalog = Catalog.new(price_list)
 catalog.lookup('orange') # => 10
 ```
 
+
 ### collections
 
-```
-TODO
-```
+The aim of this short exercise is to allow candidates time to research the Array API. Ideally they will settle on `Array#inject` to sum the total of the shopping list whilst fetching prices from the hash.
+
+Candidates will need to coerce the symbols to strings for the hash lookup, which may catch some out.
 
 
 ### conditional-statements
