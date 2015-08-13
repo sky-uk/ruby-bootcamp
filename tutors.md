@@ -7,7 +7,6 @@ The purpose of this guide is to provide information for anyone delivering this l
 
 * [Slack](#slack)
 * [Exercises](#exercises)
-  * [animal_quiz](#animal_quiz)
   * [blocks_and_procs](#blocks_and_procs)
   * [classes](#classes)
   * [collections](#collections)
@@ -21,6 +20,7 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [sinatra](#sinatra)
   * [strings1](#strings1)
   * [strings2](#strings2)
+  * [animal_quiz](#animal_quiz)
 * [Workshops](#workshops)
   * [Logical statements](#logical-statements)
   * [Exceptions](#exceptions)
