@@ -52,9 +52,25 @@ It's also a good guide to how well they understand version control and checking 
 
 ### blocks_and_procs
 
-```
-TODO
-```
+The aim of this exercise is to introduce candidates to blocks, and how to use them to effectively build more readable code.
+
+The first task focuses on using blocks to rerun a chunk of code until an assertion returns a truthy value.
+
+Expected outcomes:
+
+* The use of a `while` loop to run the block
+* Use of `sleep` for the `retry_time` option
+* Timecop usage in tests to show understanding of how to control time in a testing scenario
+
+The second task gives a DSL and the expected JSON output. There are a few tripping points in the DSL which don't translate directly to the JSON, these are to try and get the candidates to separate the parsing of the DSL and the presentation (export format) of the DSL. Examples of these stumbling blocks:
+
+* `date` is used as a setter and a getter via the same method
+* `from` and `to` are represented differently in the outputted JSON
+* `call_charges` is formated inside a nested object in the outputted JSON
+
+Ideally candidates would tackle this exercise TDD by having a spec setup with the DSL being parsed and comparing the JSON output.
+
+It would be nice to see separate objects for `Statement`, `CallCollection` and `Call`. `instance_eval` will play a heavy role in getting the DSL to function correctly.
 
 
 ### classes
