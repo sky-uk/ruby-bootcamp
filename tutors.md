@@ -6,6 +6,7 @@ The purpose of this guide is to provide information for anyone delivering this l
 ## Contents
 
 * [Slack](#slack)
+* [Deliverables](#deliverables)
 * [Exercises](#exercises)
   * [blocks_and_procs](#blocks_and_procs)
   * [classes](#classes)
@@ -37,6 +38,13 @@ During the original bootcamp we used Slack to check in with the candidates and l
 We've found this to be very valuable, especially as help given publicly is search-able and bookmark-able for pulling up at a later date.
 
 The original Slack team was named `sky-training`, however there is a larger Sky Slack that can now be used instead.
+
+
+## Deliverables
+
+We've been using GitHub as a central place for candidates to store bootcamp progress. By forking the bootcamp materials we can see from the network graph who's been working on exercises.
+
+It's also a good guide to how well they understand version control and checking in work. Sharing code samples is easy and feedback on specific parts of code is easily given in pull requests.
 
 
 ## Exercises
