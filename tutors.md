@@ -32,9 +32,11 @@ The purpose of this guide is to provide information for anyone delivering this l
 
 ## Slack
 
-```
-TODO
-```
+During the original bootcamp we used Slack to check in with the candidates and launch more detailed discussions around exercises and workshops.
+
+We've found this to be very valuable, especially as help given publicly is search-able and bookmark-able for pulling up at a later date.
+
+The original Slack team was named `sky-training`, however there is a larger Sky Slack that can now be used instead.
 
 
 ## Exercises
