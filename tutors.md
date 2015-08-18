@@ -181,9 +181,13 @@ The last task involves creating your own task to create an `li` style command. W
 
 ### rspec
 
-```
-TODO
-```
+The purpose of this exercise is to introduce candidates to TDD through a simple rock-paper-scissors application.
+
+The actual logic inside the application is already demonstrated in the video accompanying the exercise. What we're looking for is the candidates understanding and demonstration of TDD surrounding the application.
+
+Where possible candidates should make use of `context`, `shared_example` and custom matchers to write clear and concise tests covering all aspects of the application.
+
+There should also be competent use of mocking/stubbing surrounding user input and output to the terminal.
 
 
 ### run-ruby
