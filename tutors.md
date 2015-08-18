@@ -216,9 +216,15 @@ matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
 
 ### animal_quiz
 
-```
-TODO
-```
+The animal quiz was extracted from [Ruby Quiz](http://rubyquiz.com/quiz15.html). This exercise isn't actually a part of the bootcamp specifically but we've been using it as an extension when candidates have rushed through the materials.
+
+There are many ways to solve this quiz (as the Ruby Quiz site proves), but a few common characteristics we've seen in solutions are:
+
+* Separating the terminal output into a UI object (which also helps to stub out the UI during testing)
+* Using a loop to walk through the quiz steps
+* Normalising user input and modelling it internally using question/answer objects
+
+We've found candidates have gotten stuck on this exercise, specifically around testing the program end-to-end as at first it can be unclear how to test the `puts` and `gets` calls.
 
 
 ## Workshops
