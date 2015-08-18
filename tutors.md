@@ -140,9 +140,15 @@ Candidates will need to coerce the symbols to strings for the hash lookup, which
 
 ### conditional-statements
 
-```
-TODO
-```
+This exercise mainly focuses on getting candidates comfortable with navigating the Ruby documentation and discovering loops and manipulation of basic types.
+
+The first task should demonstrate understanding of different looping semantics in Ruby.
+
+The second task should show understanding of `Array` methods.
+
+The third task should show a recursive function building up the Fibonacci sequence (stopping at 100).
+
+Additional points may be gained by the candidate demonstrating an understanding of the `and` keyword and the precedence implications that come with it.
 
 
 ### debugging
