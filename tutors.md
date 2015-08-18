@@ -337,15 +337,16 @@ Key areas to touch on:
 * Using `define_method` to define supported API methods
 
 
-### Sinatra Testing with `Rack::Test`
+### Sinatra Testing with `Rack::Test` and `RSpec`
 
-The aim of this workshop is to introduce candidates to the basics of testing Sinatra with `Rack::Test`.
+The aim of this workshop is to introduce candidates to the basics of testing Sinatra with `Rack::Test` and `RSpec`.
 
 Key areas to touch on:
 
 * Sinatra DSL (basic `get`/`post` calls)
 * Writing a simple JSON service
 * Using rack test to `post` data to an endpoint
+* Using a shared context to setup the request for testing
 * Using `assert` and `last_response`
 
 
