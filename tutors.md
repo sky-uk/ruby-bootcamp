@@ -186,9 +186,13 @@ TODO
 
 ### run-ruby
 
-```
-TODO
-```
+This exercise (paired with [debugging](#debugging)) is meant as an introduction to running Ruby and being comfortable interacting with it.
+
+Candidates are expected to experiment with the `ruby` and `irb` commands to understand how they work.
+
+Using the `ruby` command candidates should be able to run a file (using `ruby script.rb`), and run some Ruby code inline (using `ruby -e 'puts Time.now'`).
+
+Using the `irb` command they should get comfortable interacting with objects ready for the next exercise.
 
 
 ### sinatra
