@@ -195,16 +195,9 @@ TODO
 
 ### strings1
 
-```
-TODO
-```
+The purpose of this exercise is to demonstrate a basic understanding of strings and hashes. The hash is already formatted correctly for fetching item values from, therefore the user just needs to split the string (using `String#split`) and iterate through the values summing the total.
 
-
-### animal_quiz
-
-```
-TODO
-```
+Bonus points may be awarded for the use of `Array#inject` or `Array#map` as well as string formatting methods such as `String#%`.
 
 
 ### strings2
@@ -217,6 +210,13 @@ The raw price list should make use of regular expressions and `String#scan` to t
 
 ```ruby
 matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
+```
+
+
+### animal_quiz
+
+```
+TODO
 ```
 
 
