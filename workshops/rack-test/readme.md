@@ -44,4 +44,4 @@ _Coding walk-through to be done in person with group._
 * [Basic example](1-basic.rb)
 * [Authentication stub object](2-authentication-object.rb)
 * [JSON service](3-json-service.rb)
-* [Testing with `Rack::Test`](4-testing.rb)
+* [Testing with `Rack::Test` and `RSpec`](4-testing.rb)
