@@ -29,6 +29,7 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [Building a JSON API wrapper with `Net::HTTP`](#building-a-json-api-wrapper-with-nethttp)
   * [Sinatra Testing with `Rack::Test`](#sinatra-testing-with-racktest)
   * [Domain Specific Language (DSL)](#domain-specific-language-dsl)
+* [Useful Resources](#useful-resources)
 
 
 ## Slack
@@ -301,3 +302,14 @@ Key areas to touch on:
 * Using `instance_eval` and blocks to call methods on object instances
 * Using `define_method` to DRY up method definitions for Employee (such as `first_name` and `last_name`)
 * Expanding on the DSL to add a `managing_director` attribute (this may be used as an extension for candidates to do after the workshop)
+
+
+## Useful Resources
+
+* [Ruby Doc](http://ruby-doc.org/)
+* [Ruby Weekly](http://rubyweekly.com/issues)
+* [Ruby Toolbox](https://www.ruby-toolbox.com/)
+* [Ruby Quiz](http://rubyquiz.com/)
+* [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
+* [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/)
+* [Ruby Koans](http://rubykoans.com/)
