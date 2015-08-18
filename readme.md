@@ -50,7 +50,8 @@ There will be guided workshops, throughout the course. These will give you a dee
 * [Exceptions](workshops/exceptions/readme.md)
 * [About blocks](workshops/about-blocks/readme.md)
 * [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
-* [Sinatra Testing with `Rack::Test`](workshops/sinatra-rack-test/readme.md)
+* [Sinatra Introduction](workshops/sinatra/readme.md)
+* [Sinatra Testing with `Rack::Test` and `RSpec`](workshops/rack-test/readme.md)
 * [Domain Specific Language (DSL)](workshops/domain-specific-language/readme.md)
 
 
