@@ -154,9 +154,11 @@ TODO
 
 ### modules
 
-```
-TODO
-```
+This exercise is all about refactoring duplicate code by extracting it into respective modules based on their functionality.
+
+Alongside these newly created modules candidates should create shared contexts to reduce duplication in tests.
+
+Candidates can gain additional points by showing they understand how to check when a module has been included (using `Module#ancestors`).
 
 
 ### rack
