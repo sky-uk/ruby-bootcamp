@@ -172,9 +172,11 @@ TODO
 
 ### rake
 
-```
-TODO
-```
+This exercise should test a candidates understanding of Rake, through getting them to configure existing Rake scripts and creating their own.
+
+The first two tasks involve setting up `rspec` and `rubocop` to run with various default configurations.
+
+The last task involves creating your own task to create an `li` style command. Whilst this may be simple to create we've found candidates struggled during the testing phase of this exercise, mainly around how to invoke tasks programmatically in specs.
 
 
 ### rspec
