@@ -233,9 +233,16 @@ Using the `irb` command they should get comfortable interacting with objects rea
 
 ### sinatra
 
-```
-TODO
-```
+This exercise aims to introduce candidates to Sinatra, which should be especially beneficial considering they've previously written their own framework on top of Rack. Because of this they should feel more comfortable looking at Sinatra's own source code to gain an understanding of how it works.
+
+Candidates should demonstrate an understanding of the two ways of writing Sinatra applications (classic and modular). A modular application should be used for the bill task.
+
+The bill task should demonstrate:
+
+* Use of a templating language such as `slim`
+* A separate application to act as an API
+* Modelling of the JSON as Ruby objects for consumption in the view (using something like `OpenStruct`)
+* A simple authentication helper with some hard coded authentication values (a username and password)
 
 
 ### strings1
