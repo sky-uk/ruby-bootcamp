@@ -147,9 +147,11 @@ TODO
 
 ### debugging
 
-```
-TODO
-```
+The aim of this exercise is to introduce candidates to debugging in Ruby. Whilst some may be used to interactive debuggers in Java and C# others may have no experience at all.
+
+During this exercise we introduce `pry`, where the candidates are expected to make liberal use of `binding.pry` to hook into the running program and debug certain aspects of it.
+
+Being quite a primitive exercise, the main aim of this is to introduce them to the concept of debugging rather than anything too specific.
 
 
 ### modules
