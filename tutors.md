@@ -165,8 +165,32 @@ Candidates can gain additional points by showing they understand how to check wh
 
 ### rack
 
-```
-TODO
+This exercise focuses on building a Sinatra-like framework with string translation built in. This exercise purposely doesn't use an existing framework as it's important candidates understand the underlying implementation using Rack to build and debug their own.
+
+Key points to focus on in this exercise:
+
+* Creating a simple DSL to define routes, HTTP verbs and the response body
+* Taking the response body and auto-translating it if an extension is appended to the URL (e.g. `/about.en`)
+* Implementing a [simple API wrapper](workshops/json-api-wrapper/readme.md) to talk to Bing or Google (although a Google gem exists already)
+* Implementing a simple hash-based cache (bonus points for using something like Memcached)
+* Fully testing the application in both unit and integration tests (using `Rack::Test`)
+
+Bonus points are awarded for:
+
+* The user following the requirement to ensure translation stays out the way of the user implementing pages (e.g. the user does not need to do anything specific on each page to ensure the content is translatable)
+* Testing edge cases such as if an extension is not provided (e.g. `/about`)
+* Implementing a full Bing API wrapper including authentication
+
+It would be great if the final DSL looked something like this:
+
+```ruby
+run Linguine.build do
+
+  get('/about') do
+    render :about
+  end
+
+end
 ```
 
 
