@@ -17,6 +17,8 @@ class Authenticator
 end
 
 post '/authenticate' do
+  content_type 'application/json'
+
   if token = Authenticator.authenticate(params[:username], params[:password])
     response = {
       success: true,
