@@ -316,11 +316,11 @@ The aim of this short workshop is to introduce candidates to the many different 
 
 Key areas to touch on:
 
-* Using an inline `if`/`unless` usually only done for small assertions
+* Using an inline `if`/`unless` is usually only done for smaller assertions
+* Introduce the `unless` keyword
 * Explain precedence related issues with ternary expressions (e.g. `true ? something + 1 : something || other`)
 * Explain memoization
-* Introduce the `unless` keyword
-* Explain case statements and how they can be used to assert an objects class
+* Explain case statements and how they can be used to assert an objects class (using the `===` operator internally)
 
 
 ### Exceptions
@@ -332,7 +332,7 @@ Key areas to touch on:
 * A generic `raise` without an exception class
 * The importance of more specific exceptions (don't rescue `Exception` if you know what you're trying to rescue from)
 * Multiple rescue statements
-* `begin`/`end` syntax and how you don't need it when inside a method definition
+* `begin`/`end` syntax and how it's not required when inside a method definition
 * Getting stack trace and exception information from a rescue
 * Using `ensure`
 
@@ -362,7 +362,7 @@ Key areas to touch on:
 
 * Using the `URI` object to construct valid URLs
 * Refactoring duplication between the three similar endpoint methods
-* Using method missing to automatically call certain URLs on jsontest.com
+* Using method missing to automatically call certain URLs on [jsontest.com](http://jsontest.com) (also mentioning `Object#respond_to?`)
 * Using `define_method` to define supported API methods
 
 
@@ -374,7 +374,7 @@ Key areas to touch on:
 
 * Sinatra DSL (basic `get`/`post` calls)
 * Writing a simple JSON service
-* Using rack test to `post` data to an endpoint
+* Using `Rack::Test` to `post` data to an endpoint
 * Using a shared context to setup the request for testing
 * Using `assert` and `last_response`
 
@@ -388,7 +388,8 @@ Key areas to touch on:
 * Splitting up the DSL into separate objects (`Company`, `Department` and `Employee`)
 * Using `instance_eval` and blocks to call methods on object instances
 * Using `define_method` to DRY up method definitions for Employee (such as `first_name` and `last_name`)
-* Expanding on the DSL to add a `managing_director` attribute (this may be used as an extension for candidates to do after the workshop)
+
+An additional task is provided for candidates by expanding on the DSL to add a `managing_director` attribute, which can be useful to demonstrate how well they've understood the workshop.
 
 
 ## Useful Resources
