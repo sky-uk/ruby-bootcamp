@@ -40,7 +40,7 @@ We've found this to be very valuable, especially as help given publicly is searc
 
 The original Slack team was named `sky-training`, however there is a larger Sky Slack (`sky`) that could now be used instead.
 
-[[top]](#tutors-guide)
+[↑ Index](#tutors-guide)
 
 
 ## Deliverables
@@ -49,7 +49,7 @@ GitHub is the central place for candidates to store bootcamp progress. By forkin
 
 It's also a good guide to how well they understand version control and checking in work. Sharing code samples is easy and feedback on specific parts of code is easily given in pull requests.
 
-[[top]](#tutors-guide)
+[↑ Index](#tutors-guide)
 
 
 ## Exercises
@@ -78,6 +78,8 @@ The second task gives a DSL and the expected JSON output. There are a few trippi
 Ideally candidates would tackle this exercise using TDD by having a spec setup with the DSL being parsed and comparing the JSON output.
 
 It would be nice to see separate objects for `Statement`, `CallCollection` and `Call`. `instance_eval` plays a heavy role in getting the DSL to function correctly.
+
+[↑ Index](#tutors-guide)
 
 
 ### Classes
@@ -138,6 +140,8 @@ catalog = Catalog.new(price_list)
 catalog.lookup('orange') # => 10
 ```
 
+[↑ Index](#tutors-guide)
+
 
 ### Collections
 
@@ -146,6 +150,8 @@ _Found in [`exercises/collections`](exercises/collections)._
 The aim of this short exercise is to provide candidates time to research the Array API. They should settle on `Array#inject` to sum the total of the shopping list whilst fetching prices from the hash.
 
 Candidates will need to coerce the symbols to strings for the hash lookup, which may catch some of them out.
+
+[↑ Index](#tutors-guide)
 
 
 ### Conditional Statements
@@ -162,6 +168,8 @@ The third task should show a recursive function building up the Fibonacci sequen
 
 Additional points may be gained by demonstrating an understanding of the `and` keyword and the precedence implications that come with it.
 
+[↑ Index](#tutors-guide)
+
 
 ### Debugging
 
@@ -173,6 +181,8 @@ During this exercise we introduce `pry`, where the candidates are expected to ma
 
 Being quite a primitive exercise, the main aim is to introduce them to the concept of debugging rather than anything related to the actual code in this exercise.
 
+[↑ Index](#tutors-guide)
+
 
 ### Modules
 
@@ -183,6 +193,8 @@ This exercise is all about refactoring duplicate code by extracting it into resp
 Alongside these newly created modules candidates should create shared contexts to reduce duplication in tests.
 
 Candidates can gain additional points by showing they understand how to check when a module has been included using `Module#ancestors`.
+
+[↑ Index](#tutors-guide)
 
 
 ### Rack
@@ -218,6 +230,8 @@ run Linguine.build do
 end
 ```
 
+[↑ Index](#tutors-guide)
+
 
 ### Rake
 
@@ -228,6 +242,8 @@ This exercise should test a candidates understanding of Rake through getting the
 The first two tasks involve setting up `rspec` and `rubocop` to run with various default configurations.
 
 The last task involves creating your own task to create an `ls` style command. Whilst this may be simple to create we've found some candidates struggled during the testing phase of this exercise, mainly around how to invoke tasks programmatically and asserting standard output.
+
+[↑ Index](#tutors-guide)
 
 
 ### RSpec
@@ -242,6 +258,8 @@ Where possible candidates should make use of `context`, `shared_example` and cus
 
 There should also be competent use of mocking/stubbing surrounding user input and output to the terminal.
 
+[↑ Index](#tutors-guide)
+
 
 ### Run Ruby
 
@@ -252,6 +270,8 @@ This exercise (paired with [debugging](#debugging)) is meant as an introduction 
 Using the `ruby` command candidates should be able to run a file (using `ruby script.rb`), and run some Ruby code inline (using `ruby -e 'puts Time.now'`).
 
 Using the `irb` command they should get comfortable interacting with objects ready for the next exercise (using methods such as `Object#methods`).
+
+[↑ Index](#tutors-guide)
 
 
 ### Sinatra
@@ -269,6 +289,8 @@ The bill task should demonstrate:
 * Modelling of the JSON as Ruby objects for consumption in the view (using something like `OpenStruct`)
 * A simple authentication helper with some hard coded authentication values (a `username` and `password`)
 
+[↑ Index](#tutors-guide)
+
 
 ### Strings 1
 
@@ -277,6 +299,8 @@ _Found in [`exercises/strings-1`](exercises/strings-1)._
 The purpose of this exercise is to demonstrate a basic understanding of strings and hashes. The hash is already formatted correctly for fetching item values from, therefore the user just needs to split the string (using `String#split`) and iterate through the values summing the total.
 
 Bonus points may be awarded for the use of `Array#inject` or `Array#map` as well as string formatting methods such as `String#%`.
+
+[↑ Index](#tutors-guide)
 
 
 ### Strings 2
@@ -292,6 +316,8 @@ The raw price list should make use of regular expressions and `String#scan` to t
 ```ruby
 matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
 ```
+
+[↑ Index](#tutors-guide)
 
 
 ### Animal Quiz
@@ -310,6 +336,8 @@ We've found candidates have gotten stuck on this exercise, specifically around t
 
 Candidates have also become stuck surrounding the application learning from questions and adding that information to an internal database.
 
+[↑ Index](#tutors-guide)
+
 
 ## Workshops
 
@@ -326,6 +354,8 @@ Key areas to touch on:
 * Explain memoization
 * Explain case statements and how they can be used to assert an objects class (using the `===` operator internally)
 
+[↑ Index](#tutors-guide)
+
 
 ### Exceptions
 
@@ -339,6 +369,8 @@ Key areas to touch on:
 * `begin`/`end` syntax and how it's not required when inside a method definition
 * Getting stack trace and exception information from a rescue
 * Using `ensure`
+
+[↑ Index](#tutors-guide)
 
 
 ### About blocks
@@ -357,6 +389,8 @@ Key areas to touch on:
 * Return inside a lamba returns flow to the outer code scope
 * Return inside a proc is executed in the outer scope (as if inside that scope directly)
 
+[↑ Index](#tutors-guide)
+
 
 ### Building a JSON API wrapper with `Net::HTTP`
 
@@ -368,6 +402,8 @@ Key areas to touch on:
 * Refactoring duplication between the three similar endpoint methods
 * Using method missing to automatically call certain URLs on [jsontest.com](http://jsontest.com) (also mentioning `Object#respond_to?`)
 * Using `define_method` to define supported API methods
+
+[↑ Index](#tutors-guide)
 
 
 ### Sinatra Testing with `Rack::Test` and `RSpec`
@@ -382,6 +418,8 @@ Key areas to touch on:
 * Using a shared context to setup the request for testing
 * Using `assert` and `last_response`
 
+[↑ Index](#tutors-guide)
+
 
 ### Domain Specific Language (DSL)
 
@@ -395,6 +433,8 @@ Key areas to touch on:
 
 An additional task is provided for candidates by expanding on the DSL to add a `managing_director` attribute, which can be useful to demonstrate how well they've understood the workshop.
 
+[↑ Index](#tutors-guide)
+
 
 ## Useful Resources
 
@@ -405,3 +445,5 @@ An additional task is provided for candidates by expanding on the DSL to add a `
 * [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 * [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/)
 * [Ruby Koans](http://rubykoans.com/)
+
+[↑ Index](#tutors-guide)
