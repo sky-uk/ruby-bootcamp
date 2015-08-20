@@ -219,11 +219,11 @@ end
 
 _Found in [`exercises/rake`](exercises/rake)._
 
-This exercise should test a candidates understanding of Rake, through getting them to configure existing Rake scripts and creating their own.
+This exercise should test a candidates understanding of Rake through getting them to configure existing Rake scripts and creating their own.
 
 The first two tasks involve setting up `rspec` and `rubocop` to run with various default configurations.
 
-The last task involves creating your own task to create an `li` style command. Whilst this may be simple to create we've found candidates struggled during the testing phase of this exercise, mainly around how to invoke tasks programmatically in specs.
+The last task involves creating your own task to create an `ls` style command. Whilst this may be simple to create we've found some candidates struggled during the testing phase of this exercise, mainly around how to invoke tasks programmatically and asserting standard output.
 
 
 ### RSpec
@@ -232,7 +232,7 @@ _Found in [`exercises/rspec`](exercises/rspec)._
 
 The purpose of this exercise is to introduce candidates to TDD through a simple rock-paper-scissors application.
 
-The actual logic inside the application is already demonstrated in the video accompanying the exercise. What we're looking for is the candidates understanding and demonstration of TDD surrounding the application.
+The actual logic inside the application is already demonstrated in the video accompanying the exercise. What we're looking for is a clear demonstration of TDD surrounding the application.
 
 Where possible candidates should make use of `context`, `shared_example` and custom matchers to write clear and concise tests covering all aspects of the application.
 
@@ -243,13 +243,11 @@ There should also be competent use of mocking/stubbing surrounding user input an
 
 _Found in [`exercises/run-ruby`](exercises/run-ruby)._
 
-This exercise (paired with [debugging](#debugging)) is meant as an introduction to running Ruby and being comfortable interacting with it.
-
-Candidates are expected to experiment with the `ruby` and `irb` commands to understand how they work.
+This exercise (paired with [debugging](#debugging)) is meant as an introduction to running Ruby and being comfortable using the command line. Candidates are expected to experiment with the `ruby` and `irb` commands to understand how they work.
 
 Using the `ruby` command candidates should be able to run a file (using `ruby script.rb`), and run some Ruby code inline (using `ruby -e 'puts Time.now'`).
 
-Using the `irb` command they should get comfortable interacting with objects ready for the next exercise.
+Using the `irb` command they should get comfortable interacting with objects ready for the next exercise (using methods such as `Object#methods`).
 
 
 ### Sinatra
@@ -258,14 +256,14 @@ _Found in [`exercises/sinatra`](exercises/sinatra)._
 
 This exercise aims to introduce candidates to Sinatra, which should be especially beneficial considering they've previously written their own framework on top of Rack. Because of this they should feel more comfortable looking at Sinatra's own source code to gain an understanding of how it works.
 
-Candidates should demonstrate an understanding of the two ways of writing Sinatra applications (classic and modular). A modular application should be used for the bill task.
+Candidates should demonstrate an understanding of the two styles of writing Sinatra applications (classic and modular). A modular application should be used for the bill task.
 
 The bill task should demonstrate:
 
-* Use of a templating language such as `slim`
+* Use of a templating language such as [`slim`](http://slim-lang.com)
 * A separate application to act as an API
 * Modelling of the JSON as Ruby objects for consumption in the view (using something like `OpenStruct`)
-* A simple authentication helper with some hard coded authentication values (a username and password)
+* A simple authentication helper with some hard coded authentication values (a `username` and `password`)
 
 
 ### Strings 1
@@ -302,9 +300,11 @@ There are many ways to solve this quiz (as the Ruby Quiz site proves), but a few
 
 * Separating the terminal output into a UI object (which also helps to stub out the UI during testing)
 * Using a loop to walk through the quiz steps
-* Normalising user input and modelling it internally using question/answer objects
+* Normalising user input and modelling it internally using `Question`/`Answer` objects
 
 We've found candidates have gotten stuck on this exercise, specifically around testing the program end-to-end as at first it can be unclear how to test the `puts` and `gets` calls.
+
+Candidates have also become stuck surrounding the application learning from questions and adding that information to an internal database.
 
 
 ## Workshops
