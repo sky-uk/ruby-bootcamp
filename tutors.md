@@ -139,9 +139,9 @@ catalog.lookup('orange') # => 10
 
 _Found in [`exercises/collections`](exercises/collections)._
 
-The aim of this short exercise is to allow candidates time to research the Array API. Ideally they will settle on `Array#inject` to sum the total of the shopping list whilst fetching prices from the hash.
+The aim of this short exercise is to provide candidates time to research the Array API. They should settle on `Array#inject` to sum the total of the shopping list whilst fetching prices from the hash.
 
-Candidates will need to coerce the symbols to strings for the hash lookup, which may catch some out.
+Candidates will need to coerce the symbols to strings for the hash lookup, which may catch some of them out.
 
 
 ### Conditional Statements
