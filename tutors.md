@@ -53,7 +53,7 @@ It's also a good guide to how well they understand version control and checking 
 
 ### Blocks and Procs
 
-_Found in `exercises/blocks_and_procs`._
+_Found in `exercises/blocks-and-procs`._
 
 The aim of this exercise is to introduce candidates to blocks, and how to use them to effectively build more readable code.
 
@@ -293,7 +293,7 @@ matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
 
 ### Animal Quiz
 
-_Found in `exercises/animal_quiz`._
+_Found in `exercises/animal-quiz`._
 
 The animal quiz was extracted from [Ruby Quiz](http://rubyquiz.com/quiz15.html). This exercise isn't actually a part of the bootcamp specifically but we've been using it as an extension when candidates have rushed through the materials.
 
