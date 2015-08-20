@@ -269,7 +269,7 @@ The bill task should demonstrate:
 
 ### Strings 1
 
-_Found in `exercises/strings1`._
+_Found in `exercises/strings-1`._
 
 The purpose of this exercise is to demonstrate a basic understanding of strings and hashes. The hash is already formatted correctly for fetching item values from, therefore the user just needs to split the string (using `String#split`) and iterate through the values summing the total.
 
@@ -278,7 +278,7 @@ Bonus points may be awarded for the use of `Array#inject` or `Array#map` as well
 
 ### Strings 2
 
-_Found in `exercises/strings2`._
+_Found in `exercises/strings-2`._
 
 The purpose of this exercise is to demonstrate string manipulation methods such as `String#scan` and `String#split`.
 
