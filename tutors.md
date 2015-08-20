@@ -178,14 +178,14 @@ This exercise is all about refactoring duplicate code by extracting it into resp
 
 Alongside these newly created modules candidates should create shared contexts to reduce duplication in tests.
 
-Candidates can gain additional points by showing they understand how to check when a module has been included (using `Module#ancestors`).
+Candidates can gain additional points by showing they understand how to check when a module has been included using `Module#ancestors`.
 
 
 ### Rack
 
 _Found in [`exercises/rack`](exercises/rack)._
 
-This exercise focuses on building a Sinatra-like framework with string translation built in. This exercise purposely doesn't use an existing framework as it's important candidates understand the underlying implementation using Rack to build and debug their own.
+This exercise focuses on building a Sinatra-like framework with string translation built in. This exercise purposely doesn't use an existing framework as it's important candidates understand the underlying implementation of frameworks like Sinatra using Rack to build and debug their own.
 
 Key points to focus on in this exercise:
 
@@ -198,10 +198,11 @@ Key points to focus on in this exercise:
 Bonus points are awarded for:
 
 * The user following the requirement to ensure translation stays out the way of the user implementing pages (e.g. the user does not need to do anything specific on each page to ensure the content is translatable)
+* Using [Nokogiri](http://www.nokogiri.org/) to parse rendered HTML and replace the translated text nodes
 * Testing edge cases such as if an extension is not provided (e.g. `/about`)
 * Implementing a full Bing API wrapper including authentication
 
-It would be great if the final DSL looked something like this:
+Ideally the final DSL should look something like this:
 
 ```ruby
 run Linguine.build do
