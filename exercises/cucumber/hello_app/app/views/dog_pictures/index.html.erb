@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Dog Pictures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Url</th>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dog_pictures.each do |dog_picture| %>
+      <tr>
+        <td><img src="<%= dog_picture.url %>" class="thumbnail" /></td>
+        <td><%= dog_picture.name %></td>
+        <td><%= link_to 'Show', dog_picture %></td>
+        <td><%= link_to 'Edit', edit_dog_picture_path(dog_picture) %></td>
+        <td><%= link_to 'Destroy', dog_picture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dog picture', new_dog_picture_path %>
