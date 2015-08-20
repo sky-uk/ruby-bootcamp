@@ -53,7 +53,7 @@ It's also a good guide to how well they understand version control and checking 
 
 ### Blocks and Procs
 
-_Found in `exercises/blocks-and-procs`._
+_Found in [`exercises/blocks-and-procs`](exercises/blocks-and-procs)._
 
 The aim of this exercise is to introduce candidates to blocks, and how to use them to effectively build more readable code.
 
@@ -78,7 +78,7 @@ It would be nice to see separate objects for `Statement`, `CallCollection` and `
 
 ### Classes
 
-_Found in `exercises/classes`._
+_Found in [`exercises/classes`](exercises/classes)._
 
 The purpose of this exercise is to expand on the code in [strings2](#strings2). Ideally the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
 
@@ -137,7 +137,7 @@ catalog.lookup('orange') # => 10
 
 ### Collections
 
-_Found in `exercises/collections`._
+_Found in [`exercises/collections`](exercises/collections)._
 
 The aim of this short exercise is to allow candidates time to research the Array API. Ideally they will settle on `Array#inject` to sum the total of the shopping list whilst fetching prices from the hash.
 
@@ -146,7 +146,7 @@ Candidates will need to coerce the symbols to strings for the hash lookup, which
 
 ### Conditional Statements
 
-_Found in `exercises/conditional-statements`._
+_Found in [`exercises/conditional-statements`](exercises/conditional-statements)._
 
 This exercise mainly focuses on getting candidates comfortable with navigating the Ruby documentation and discovering loops and manipulation of basic types.
 
@@ -161,7 +161,7 @@ Additional points may be gained by the candidate demonstrating an understanding 
 
 ### Debugging
 
-_Found in `exercises/debugging`._
+_Found in [`exercises/debugging`](exercises/debugging)._
 
 The aim of this exercise is to introduce candidates to debugging in Ruby. Whilst some may be used to interactive debuggers in Java and C# others may have no experience at all.
 
@@ -172,7 +172,7 @@ Being quite a primitive exercise, the main aim of this is to introduce them to t
 
 ### Modules
 
-_Found in `exercises/modules`._
+_Found in [`exercises/modules`](exercises/modules)._
 
 This exercise is all about refactoring duplicate code by extracting it into respective modules based on their functionality.
 
@@ -183,7 +183,7 @@ Candidates can gain additional points by showing they understand how to check wh
 
 ### Rack
 
-_Found in `exercises/rack`._
+_Found in [`exercises/rack`](exercises/rack)._
 
 This exercise focuses on building a Sinatra-like framework with string translation built in. This exercise purposely doesn't use an existing framework as it's important candidates understand the underlying implementation using Rack to build and debug their own.
 
@@ -216,7 +216,7 @@ end
 
 ### Rake
 
-_Found in `exercises/rake`._
+_Found in [`exercises/rake`](exercises/rake)._
 
 This exercise should test a candidates understanding of Rake, through getting them to configure existing Rake scripts and creating their own.
 
@@ -227,7 +227,7 @@ The last task involves creating your own task to create an `li` style command. W
 
 ### RSpec
 
-_Found in `exercises/rspec`._
+_Found in [`exercises/rspec`](exercises/rspec)._
 
 The purpose of this exercise is to introduce candidates to TDD through a simple rock-paper-scissors application.
 
@@ -240,7 +240,7 @@ There should also be competent use of mocking/stubbing surrounding user input an
 
 ### Run Ruby
 
-_Found in `exercises/run-ruby`._
+_Found in [`exercises/run-ruby`](exercises/run-ruby)._
 
 This exercise (paired with [debugging](#debugging)) is meant as an introduction to running Ruby and being comfortable interacting with it.
 
@@ -253,7 +253,7 @@ Using the `irb` command they should get comfortable interacting with objects rea
 
 ### Sinatra
 
-_Found in `exercises/sinatra`._
+_Found in [`exercises/sinatra`](exercises/sinatra)._
 
 This exercise aims to introduce candidates to Sinatra, which should be especially beneficial considering they've previously written their own framework on top of Rack. Because of this they should feel more comfortable looking at Sinatra's own source code to gain an understanding of how it works.
 
@@ -269,7 +269,7 @@ The bill task should demonstrate:
 
 ### Strings 1
 
-_Found in `exercises/strings-1`._
+_Found in [`exercises/strings-1`](exercises/strings-1)._
 
 The purpose of this exercise is to demonstrate a basic understanding of strings and hashes. The hash is already formatted correctly for fetching item values from, therefore the user just needs to split the string (using `String#split`) and iterate through the values summing the total.
 
@@ -278,7 +278,7 @@ Bonus points may be awarded for the use of `Array#inject` or `Array#map` as well
 
 ### Strings 2
 
-_Found in `exercises/strings-2`._
+_Found in [`exercises/strings-2`](exercises/strings-2)._
 
 The purpose of this exercise is to demonstrate string manipulation methods such as `String#scan` and `String#split`.
 
@@ -293,7 +293,7 @@ matches = string.scan(/(\w+)\s=\s£?([\d.]+)p?/)
 
 ### Animal Quiz
 
-_Found in `exercises/animal-quiz`._
+_Found in [`exercises/animal-quiz`](exercises/animal-quiz)._
 
 The animal quiz was extracted from [Ruby Quiz](http://rubyquiz.com/quiz15.html). This exercise isn't actually a part of the bootcamp specifically but we've been using it as an extension when candidates have rushed through the materials.
 
