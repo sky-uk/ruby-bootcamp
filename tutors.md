@@ -40,12 +40,16 @@ We've found this to be very valuable, especially as help given publicly is searc
 
 The original Slack team was named `sky-training`, however there is a larger Sky Slack (`sky`) that could now be used instead.
 
+[[top]](#tutors-guide)
+
 
 ## Deliverables
 
 GitHub is the central place for candidates to store bootcamp progress. By forking the bootcamp materials we can see from the network graph who's been working on exercises.
 
 It's also a good guide to how well they understand version control and checking in work. Sharing code samples is easy and feedback on specific parts of code is easily given in pull requests.
+
+[[top]](#tutors-guide)
 
 
 ## Exercises
