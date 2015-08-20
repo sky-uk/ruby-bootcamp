@@ -80,7 +80,7 @@ It would be nice to see separate objects for `Statement`, `CallCollection` and `
 
 _Found in [`exercises/classes`](exercises/classes)._
 
-The purpose of this exercise is to expand on the code in [Strings 2](#strings-2). Ideally the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
+The purpose of this exercise is to expand on the code in [Strings 2](#strings-2). The solution should ideally include some sort of real world modeling of a basket, checkout and price list. For example:
 
 ```ruby
 catalog = Catalog.new(raw_price_list)
@@ -95,7 +95,7 @@ The end string that is outputted may be handled by another object or just printe
 puts "The price of the shopping list is: £%.2f" % (checkout.total.to_f / 100)
 ```
 
-As with the previous exercise, the shopping list should use `String#split` to turn both strings into more usable objects to lookup the prices from and `String#scan` to turn the list into a hash.
+As with the previous exercise, the shopping list should use `String#split` to turn both strings into more usable objects to lookup the prices, and `String#scan` to turn the list into a hash.
 
 For example:
 
