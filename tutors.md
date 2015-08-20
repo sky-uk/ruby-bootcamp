@@ -148,7 +148,7 @@ Candidates will need to coerce the symbols to strings for the hash lookup, which
 
 _Found in [`exercises/conditional-statements`](exercises/conditional-statements)._
 
-This exercise mainly focuses on getting candidates comfortable with navigating the Ruby documentation and discovering loops and manipulation of basic types.
+This exercise focuses on getting candidates comfortable with navigating the Ruby documentation and discovering loops and manipulation of basic types.
 
 The first task should demonstrate understanding of different looping semantics in Ruby.
 
@@ -156,18 +156,18 @@ The second task should show understanding of `Array` methods.
 
 The third task should show a recursive function building up the Fibonacci sequence (stopping at 100).
 
-Additional points may be gained by the candidate demonstrating an understanding of the `and` keyword and the precedence implications that come with it.
+Additional points may be gained by demonstrating an understanding of the `and` keyword and the precedence implications that come with it.
 
 
 ### Debugging
 
 _Found in [`exercises/debugging`](exercises/debugging)._
 
-The aim of this exercise is to introduce candidates to debugging in Ruby. Whilst some may be used to interactive debuggers in Java and C# others may have no experience at all.
+The aim of this exercise is to introduce candidates to debugging in Ruby. Whilst some may be used to interactive debuggers in Java and C#, others may have no experience at all.
 
 During this exercise we introduce `pry`, where the candidates are expected to make liberal use of `binding.pry` to hook into the running program and debug certain aspects of it.
 
-Being quite a primitive exercise, the main aim of this is to introduce them to the concept of debugging rather than anything too specific.
+Being quite a primitive exercise, the main aim is to introduce them to the concept of debugging rather than anything related to the actual code in this exercise.
 
 
 ### Modules
