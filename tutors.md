@@ -400,7 +400,7 @@ Key areas to touch on:
 
 * Using the `URI` object to construct valid URLs
 * Refactoring duplication between the three similar endpoint methods
-* Using method missing to automatically call certain URLs on [jsontest.com](http://jsontest.com) (also mentioning `Object#respond_to?`)
+* Using method missing to automatically call certain URLs on [jsontest.com](http://www.jsontest.com) (also mentioning `Object#respond_to?`)
 * Using `define_method` to define supported API methods
 
 [Index](#contents)
