@@ -80,7 +80,7 @@ It would be nice to see separate objects for `Statement`, `CallCollection` and `
 
 _Found in [`exercises/classes`](exercises/classes)._
 
-The purpose of this exercise is to expand on the code in [strings2](#strings2). Ideally the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
+The purpose of this exercise is to expand on the code in [Strings 2](#strings-2). Ideally the solution should include some sort of real world modeling of a basket, checkout and price list. For example:
 
 ```ruby
 catalog = Catalog.new(raw_price_list)
