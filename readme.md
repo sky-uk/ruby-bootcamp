@@ -37,7 +37,7 @@ You can find out more about setting up your environment [here](environment-setup
 As mentioned above, the [course dashboard](http://prezi.com/adnfktg98mli/?utm_campaign=share&utm_medium=copy&rc=ex0share) contains the overarching material for the course. It prescribes all of the things to read and do and the order to do them in. You should use the dashboard to guide you through the course.
 
 
-### Exercises:
+### Exercises
 
 The exercises for the course can be found in the [exercises](./exercises) directory. The course [dashboard](#dashboard) will take you through the content and tell you which exercise to do when to complement what you are reading/watching.
 
