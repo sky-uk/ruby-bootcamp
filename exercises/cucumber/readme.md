@@ -19,19 +19,20 @@ Write a set of cucumber tests that describe the behaviour of the hello_app:
 - Destroy a picture
 - Create a new picture
 
-The hello_app is a basic rails app that uses [Cucumber-Rails](https://github.com/cucumber/cucumber-rails).
+The hello_app is a basic Rails app that uses [Cucumber-Rails](https://github.com/cucumber/cucumber-rails).
 
 You can use bundler to install all the gems required by hello_app.
 See: [Rails Tutorial](https://www.railstutorial.org/book/beginning#sec-the_hello_application)
 
-For an example of a feature file, see [cucumber/hello_app/features/example.feature].
+For an example of a feature file, see [cucumber/hello_app/features/example.feature](https://github.com/sky-uk/ruby-bootcamp/blob/cucumber-exercise/exercises/cucumber/hello_app/features/example.feature).
 This is using:
 - Cucumber to link the feature files to the step definitions 
-- Capybara to inspect the page (rails has inbuilt support for this)
+- [Capybara](http://jnicklas.github.io/capybara/) to inspect the page (Rails has inbuilt support for this)
 - Rspec for expectations
+
 See if you can improve the final step!
 
-### Running the rails app
+### Running the Rails app
 
 Run: 
 
@@ -41,11 +42,23 @@ to populate the database with a default image, then
 
 ``rails s``
 
-To start the server.
+to start the server.
 
-### Running cucumber
+### Running Cucumber
+
+To run all tests in development mode: 
 
 ``RAILS_ENV="development" rake cucumber``
+
+(this is required for the example feature, as it relies on data inserted in development mode).
+
+To run one test in development mode: 
+
+``RAILS_ENV="development" rake cucumber features/example.feature``
+
+To run all tests:
+
+``rake cucumber``
 
 ### Cucumber hints
 

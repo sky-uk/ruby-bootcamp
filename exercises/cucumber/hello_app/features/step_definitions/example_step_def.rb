@@ -3,7 +3,7 @@ Given(/^I am on the home page$/) do
 end
 
 When(/^I click '([^"]*)' on the '([^"]*)' picture$/) do |link, picture|
-  find("##{picture}").click_link("#{link}")
+  find("##{picture.downcase}").click_link("#{link}")
 end
 
 Then(/^I expect to see the '([^"]*)' picture$/) do |picture_name|

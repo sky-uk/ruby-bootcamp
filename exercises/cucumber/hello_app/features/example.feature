@@ -5,5 +5,5 @@ Feature: Cucumber example
 
   Scenario: Show the selected picture
     Given I am on the home page
-    When I click 'Show' on the 'laptop' picture
+    When I click 'Show' on the 'Laptop' picture
     Then I expect to see the 'Laptop' picture
