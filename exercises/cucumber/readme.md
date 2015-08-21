@@ -70,8 +70,13 @@ If you write your feature file first, then run cucumber:
 
 It will output suggested code to the console.
 
-Ideally, Cucumber scenarios should be short, sweet, and user-friendly.
 
 ### Cucumber's limitations
 
-TODO
+Cucumber is only as good as the tools used within it, e.g. Capybara and Rspec.
+It is easy to use Cucumber as a smoke test, e.g. a framework for Capybara mimicking user interaction with the page.
+However speed can make or break a test (links being slow to load, so the step fails).
+It can be quite slow to run.
+If you find any others that would be useful for other people, please do a pull request and add them in!
+
+Ideally, Cucumber scenarios should be short, sweet, and user-friendly.
