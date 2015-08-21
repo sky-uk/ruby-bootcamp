@@ -13,7 +13,7 @@
 
   <tbody>
     <% @dog_pictures.each do |dog_picture| %>
-      <tr>
+      <tr id="<%= dog_picture.name.downcase.underscore %>">
         <td><img src="<%= dog_picture.url %>" class="thumbnail" /></td>
         <td><%= dog_picture.name %></td>
         <td><%= link_to 'Show', dog_picture %></td>
