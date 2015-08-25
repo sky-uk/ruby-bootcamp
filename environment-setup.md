@@ -3,41 +3,57 @@
 
 ## Introduction
 
-In order to hook yourself up for this course properly you are going to need to a couple of things.
+In order to set yourself up for this course properly you are going to need a machine with Ruby installed and some accounts.
 
 
-## Setup your Environment.
+## Setup your environment
 
-You are going to need administrator access to your laptop to install the software that we are going to use. With the help of the group facilitator make the request.
+You are going to need administrator access to your laptop to install the software that we are going to use. With the help of the group facilitator you can make the request.
 
 After you have got administrator rights you are going to need to do a few bits and pieces:
 
-* Create a Google account and send your username to `sky.training@lad-tech.com` from here we'll hook you up.
-* Enable Google+ against your account. This will allow the Google hangouts addons that we use to function properly
-* Install Google Chrome from the web, not Sky's self serve app store.
-* Install the Google Hangouts addon: We'll use this to stay in touch with each other when we're not in the same room
-* Install Slack, you will receive an invite for the training group shortly.
-* Register for a floobits account. Floobits is a really great service that will allow us to write code together.
-* Install VMWare fusion
-* get a Github account (if you don't already have one)
+* Register a Google Apps account to use Hangouts with
+* Install Slack and get an invite to the Sky or Sky Training team from your facilitator (we use this for most communication)
+* Install Google Chrome from the web (not Sky's self serve app store)
+* Install the Google Hangouts Chrome extension (we'll use this for video calling in the event we're working remotely)
+* Register for a Floobits account (Floobits is a really great service that will allow us to write code together)
+* Register a Github account (if you don't already have one)
 * Get access to Safari Books Online
 * Get access to Pluralsight
 * Get access to codeschool
 
 
-## Get the training VM up and running
+## Install Ruby
 
-Throughout this course we will be using a virtual machine that has all the software that you require on it.
+To install Ruby we're going to use a tool called [`rbenv`](https://github.com/sstephenson/rbenv). To install this tool you can use [Homebrew](http://brew.sh/).
 
-**Note:** the password for the VM is `password` :)
+For more information about installing this tool, [consult the readme](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).
+
+The short version of this is:
+
+```
+# Install Homebrew
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install rbenv
+
+brew update
+brew install rbenv ruby-build
+
+# Install a Ruby version
+
+rbenv install 2.2.3
+```
 
 
-## Checkout the course exercises
+## Checkout the bootcamp materials
 
-* Fork the course exercises to your own area within Github.
-* On the VM, under ~/Projects, clone your forked copy of the repository.
+The [ruby-bootcamp](https://github.com/Ladtech/ruby-bootcamp) repository is the starting point for the bootcamp. You'll want to [fork the repository](https://github.com/Ladtech/ruby-bootcamp) and clone it locally.
 
 
 ## Setup Floobits
 
 Floobits has a few features that require you to be authenticated against your account. Login in to Floobits and follow the instructions in under your settings area to create a .floorc.json in the home area of you VM.
+
+This step is optional as you may not require Floobits to pair with your facilitator (as they might be in the same room).
