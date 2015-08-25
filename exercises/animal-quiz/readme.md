@@ -3,7 +3,7 @@
 
 ## Introduction
 
-It's time to pull together what we've done till now with a slightly larger exercise. The Animal Quiz is fun and should let you stretch your legs a little bit.
+It's time to pull together what we've done up to now with a slightly larger exercise. The Animal Quiz is fun and should let you stretch your legs a little bit.
 
 The Animal Quiz requires well defined classes that know their role and some good business logic to glue them together.
 
@@ -12,12 +12,12 @@ Use this as an opportunity to identify anything that is not cemented in your lea
 
 ## Objective
 
-- Use Ruby and its expressiveness to write something that reads well.
-- Use class and modules more extensively
-- Test drive those classes and modules using the available RSPec goodness
-- Interact with the commandline
+* Use Ruby and its expressiveness to write something that reads well.
+* Use classes and modules extensively
+* Test drive those classes and modules using the available RSpec goodness
+* Interact with the command line
 
 
 ## Exercise
 
-Your mission should you choose to accept it lies waiting for you [here](animal_quiz.pdf).
+More information for this exercise [can be found here](animal-quiz.pdf).
