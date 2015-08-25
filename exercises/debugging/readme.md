@@ -21,7 +21,7 @@ gem install pry-byebug pry-doc
 
 ### Task 1
 
-Using the `pry-debug` in [debug_me.rb](debug_me.rb)
+Using the `pry-debug` in [`debug_me.rb`](debug_me.rb)
 
 * Find out what order the people have been shuffled into before they are printed to screen
 * Look inside one of the objects representing John, David or Matz. Can you find the attribute that holds the data?
