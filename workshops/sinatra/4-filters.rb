@@ -13,11 +13,15 @@ after do
   puts "finishing up"
 end
 
-
 helpers do
+
   def greetings
-    {1 => 'Good Day', 2 => 'hello' }
+    {
+      1 => 'Good Day',
+      2 => 'hello'
+    }
   end
+
 end
 
 get '/greetings' do
@@ -28,4 +32,3 @@ end
 get '/greetings/:id' do
   greetings[params[:id].to_i]
 end
-

@@ -11,5 +11,3 @@ end
 put '/greeting' do
   'data overwritten'
 end
-
-
