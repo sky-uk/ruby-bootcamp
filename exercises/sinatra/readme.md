@@ -5,7 +5,7 @@ So we've looked at Rack and even written our own framework. Now it's time to use
 
 ## Classic and Modular applications
 
-There are two types of Sinatra application. Classic and [Modular](http://www.sinatrarb.com/intro.html#Sinatra::Base%20-%20Middleware,%20Libraries,%20and%20Modular%20Apps)
+There are two types of Sinatra application. Classic and [Modular](http://www.sinatrarb.com/intro.html#Sinatra::Base%20-%20Middleware,%20Libraries,%20and%20Modular%20Apps).
 
 
 ### Classic
