@@ -8,7 +8,7 @@ In order to write better Ruby we need to write code that's well encapsulated.
 
 ## Objectives
 
-* Use what you have learned in the chapters [10-14](https://www.safaribooksonline.com/library/view/eloquent-ruby/9780321700308/ch10.html) to start defining classes
+* Use what you have learned in the chapters [10 - 14](https://www.safaribooksonline.com/library/view/eloquent-ruby/9780321700308/ch10.html) to start defining classes
 * Understand how to refactor code into separate concerns
 
 
