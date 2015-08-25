@@ -27,7 +27,7 @@ The course revolves around the [course dashboard](http://prezi.com/adnfktg98mli/
 
 This repository contains exercises to compliment the presentation material, which you can work through at your own pace. Once you've completed the presentation and these exercises, you can consider the course completed! If you need more material, check the [final project](project/readme.md).
 
-Before getting started, you may need to [setup your environment](environment-setup.md).
+Before getting started, you may need to [setup your environment](environment.md).
 
 
 ## What's in the Bootcamp?
