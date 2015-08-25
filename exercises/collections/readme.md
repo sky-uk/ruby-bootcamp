@@ -17,7 +17,7 @@ Using the code supplied in [clever_collections.rb](clever_collections.rb), use t
 At the end of your script, output the following (replacing `£pounds.pence`):
 
 ```ruby
-puts "The price of the shopping list is: £pounds.pence"
+puts "The price of the shopping list is: £pounds.pence."
 ```
 
 
