@@ -1,16 +1,23 @@
-# RSpec: Rock, Paper, Scissor
+# RSpec
 
 ![Logo](https://m2.behance.net/rendition/pm/2852051/disp/cfc4ec1a928ce0285a4e5f1308cd455e.jpg)
 
+## Introduction
 
-## Excercise
+This exercise revolves around "Rock, Paper, Scissors".
 
-We just watched a [video](https://www.codeschool.com/screencasts/rspec-3-best-practices) showing TDD in conjunction with RSpec3.
 
-Implement your own version of Rock, Paper, Scissor. Try and go top down and use all that RSpec has to offer.
+## Exercise
 
-**Note:** For the avoidance of doubt.
+We just watched a [video](https://www.codeschool.com/screencasts/rspec-3-best-practices) showing TDD in conjunction with RSpec 3.
 
-- Rock beats Scissors
-- Paper beats Rock
-- Scissors beats Paper
+Implement your own version of "Rock, Paper, Scissors". Try and go top down and use all that RSpec has to offer.
+
+
+## Notes
+
+For the avoidance of doubt:
+
+* Rock beats Scissors
+* Paper beats Rock
+* Scissors beats Paper
