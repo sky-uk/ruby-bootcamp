@@ -3,20 +3,21 @@
 
 ## Introduction
 
-In order to get further we need the code that we write to be well encapsulated.
+In order to write better Ruby we need to write code that's well encapsulated.
 
 
 ## Objectives
 
-- Use what you have learnt in the chapters [10-14](https://www.safaribooksonline.com/library/view/eloquent-ruby/9780321700308/ch10.html) to start defining classes
+* Use what you have learned in the chapters [10 - 14](https://www.safaribooksonline.com/library/view/eloquent-ruby/9780321700308/ch10.html) to start defining classes
+* Understand how to refactor code into separate concerns
 
 
 ## Exercise
 
-write some classes to encapsulate what's was going on in the code you wrote for [String Gymnastics 2](../exercise-6/strings_gymastics_2.rb).
+Extract your previous code into classes to encapsulate the functionality defined in [String Gymnastics 2](../exercise-6/strings_gymastics_2.rb).
 
-Let the last line of your script read something like the following:
+The last line of your script should read something like the following:
 
-```
+```ruby
 till.total # The exact interface is entirely up to you!
 ```
