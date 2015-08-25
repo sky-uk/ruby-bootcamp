@@ -1,18 +1,20 @@
 # Blocks and Procs
 
+
 Blocks can be really good for writing very reusable fluent code.
 
 
-## WaitUntil
+## `Wait.until`
 
 Sleeps are never good to see in code. Write a library that allow a user to do some intelligent waiting.
 
-Define a module called `Wait` that has an `until` method this method should take a block which the until method will execute until it returns true.
+Define a module called `Wait` that has an `until` class method. This method should take a block which the until method will execute until it returns true.
 
-E.g:
+For example:
 
-```
+```ruby
 start_time = Time.now
+
 Wait.until do
   rand(9999) % 2 == 0
 end
@@ -20,21 +22,21 @@ end
 
 This method should also take some optional arguments
 
-- retry_time - this is the amount of time it should wait before executing the block again
-- expire_after - this is the amount of time in seconds that the method should run for before giving up
+* `retry_time` - this is the amount of time it should wait before executing the block again
+* `expire_after` - this is the amount of time in seconds that the method should run for before giving up
 
 `Wait.until` by default should give up after 5 seconds and should raise a sensible exception if it does so.
 
-Note: When writing tests for your code you might want to check out something like [TimeCop](https://github.com/travisjeffery/timecop)
+_Note: when writing tests for your code you might want to utilise something like [TimeCop](https://github.com/travisjeffery/timecop)._
 
 
 ## Telephone Billing Statement DSL
 
-Write a DSL that will let you describe a telephone bill.
+Write a Domain Specific Language that lets you describe a telephone bill.
 
-The overall `Statement` class should have a to_json method that when you call it renders something like the following.
+The overall `Statement` class should have a to_json method that when you call it renders the following.
 
-```
+```json
 {
   "statement": {
     "generated": "2015-01-11",
@@ -57,7 +59,7 @@ The overall `Statement` class should have a to_json method that when you call it
 
 The DSL should make heavy use of blocks. For example:
 
-```
+```ruby
 statement = Statement.new do
   date Date.today
   due(date + 30.days)
@@ -74,6 +76,4 @@ statement = Statement.new do
 end
 ```
 
-The exact form the DSL is of course entirely up to you. See what you can do!
-
-P.s. don't forget to the write the tests ;)
+The exact form the DSL is of course entirely up to you. See what you can do! P.S. don't forget to the write the tests!
