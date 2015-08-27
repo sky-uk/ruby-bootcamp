@@ -29,6 +29,7 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [Building a JSON API wrapper with `Net::HTTP`](#building-a-json-api-wrapper-with-nethttp)
   * [Sinatra Testing with `Rack::Test`](#sinatra-testing-with-racktest)
   * [Domain Specific Language (DSL)](#domain-specific-language-dsl)
+  * [Building a Gem](#building-a-gem)
 * [Useful Resources](#useful-resources)
 
 
@@ -432,6 +433,13 @@ Key areas to touch on:
 * Using `define_method` to DRY up method definitions for Employee (such as `first_name` and `last_name`)
 
 An additional task is provided for candidates by expanding on the DSL to add a `managing_director` attribute, which can be useful to demonstrate how well they've understood the workshop.
+
+[Index](#contents)
+
+
+### Building a Gem
+
+TODO
 
 [Index](#contents)
 
