@@ -43,7 +43,8 @@ terminal and open a new one.
 Kramdown is a Ruby library and executable to convert Markdown to HTML.
 With your sandbox in place, use the `gem` command to install the
 `kramdown` gem.  Doing so will have installed a `kramdown` executable.
-Where did it go?  You can use the `gem env` command to help find it.
+
+1. Where did it go?  You can use the `gem env` command to help find it.
 
 The `kramdown` executable supports `--help` to list available options.
 Run it.
@@ -56,36 +57,46 @@ Install version 1.4.2 of `kramdown`.
 Having more than one version of a gem installed isn't much use unless
 you can use both.  The `--help` option to `kramdown` will give you the
 options it supports.  List the options in both the most recent
-version, and in version 1.4.2.  Which new options are supported by the
-more recent version?  (Hint: `gem help install` should help here)
+version, and in version 1.4.2.  
 
-Find out how to show which versions of `kramdown` you have installed.
+2. Which new options are supported by the more recent version?  
+   (Hint: `gem help install` should help here)
 
-Run `irb`.  Find out how to load the `kramdown` library, and convert
+3. How do you list which versions of `kramdown` you have installed?
+
+4. Run `irb`, and show the Ruby code to load the `kramdown` library, and convert
 the following string (without quote marks) to HTML:
 
     "# CHUNKY BACON!"
 
 ## Uninstalling a gem
 
-Find out how to remove only version 1.4.2 of `kramdown`.
+5. Find two different ways to remove only version 1.4.2 of `kramdown`.
 
 
 ## Dependencies
 
 Gems can list other gems as dependencies, to be installed at the same
 time.  Install the `fpm` gem. This is a tool for building gems from
-other package formats.  Which dependencies does it install?
+other package formats.  
 
-Install the `httparty` gem.  Which dependencies does it install?
+6. Which dependencies does 'fpm' install?
 
-There is a common dependency between `fpm` and `httparty`.  What is
-it?  What problems can you foresee from the situation you now have in
-your `$GEM_HOME`?
+7. Install the `httparty` gem.  Which dependencies does it install?
+
+8. There is a common dependency between `fpm` and `httparty`.  What is
+it?
+
+9. Which version of that dependency is loaded when you `require "fpm"`?
+
+10. Which version of that dependency is loaded when you `require "httparty"`?
+
+11. What problems might this present?
 
 ## Exploring rubygems.org
 
 Open http://rubygems.org in a browser, and search for the `rack` gem.
-What is the most recent published version?
 
-Find out how to get that same information with the `gem` command.
+12. What is the most recent published version?
+
+13. Find out how to get that same information with the `gem` command.
