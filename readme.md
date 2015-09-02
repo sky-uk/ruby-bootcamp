@@ -18,7 +18,7 @@ Things we cover in this course include:
 * Cucumber
 * Rack
 * Sinatra
-
+* Rails
 
 ## Getting Started
 
