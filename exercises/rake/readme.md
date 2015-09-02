@@ -1,16 +1,22 @@
 # Rake
 
+[Rake](https://github.com/ruby/rake "Official Rake Github") is a build tool; it's purpose to automate the repetative tasks that we as developers do as part of building and deploying a project. You might have used tools that have a similar purpose before (Make, Ant, Maven, phing, etc) when using other languages.
 
-Rake is the defacto gem for creating scripts that orchestrating building project and other project related tasks.
+`rake` is a command-line tool that comes with the rake gem, it is often bundled with ruby distributions (e.g. ruby-build in homebrew).
 
-Pretty much every Ruby project you ever look at will have a `Rakefile` and now its time for you to start writing them.
+A `Rakefile` is the file where a project defines what it's tasks are and the instructions for rake to execute in order to complete those tasks.
 
-A lot of projects come with rake tasks that make using them easy.
+Many Ruby projects come with rake task integrations to help automating them.
 
+## Installing rake
+Now is probably a good time to check if you have rake installed and if not then install it. Try running `rake --version` or `gem list | grep rake` and you'll see if you already have it. To install it there are a few options:
+* Install the gem: `sudo gem install rake`
+* Using homebrew: `brew install ruby-build`
 
-## Thirdparty Tasks
+## The Rakefile
+The Rakefile is a plain text file that usually sits in the root directory of your project. Its syntax looks a lot like ruby because it is ruby! Everything you can do in ruby can be part of your rake task execution.
 
-
+<<<<<<< HEAD
 ### Write a Rakefile
 
 Using the code supplied in [lib](lib), write a `Rakefile` that:
@@ -38,9 +44,16 @@ Create a rake task which lists a directories contents and filters the output to 
 
 The script should be called like this:
 
+=======
+Lets start with a simple example that just displays some messages. You can find this file at /exercises/rake/Rakefile.
+>>>>>>> Complete rebuild of the rake exercise. Introduced the basics but need to further work on both exercises and more advanced material.
 ```
-rake list[path,pattern]
+desc "A Task to remind me of the date"
+task :date do
+  puts 'The date today is: ' + Time.new.strftime('%d/%m/%y')
+end
 ```
+<<<<<<< HEAD
 
 E.g:
 
@@ -73,3 +86,23 @@ You should also spend some time testing your task using what you've learned in p
 If you want a hint for how to get hold of your task to and test them, [click here](hints).
 
 _Note: don't forget to add a helpful description so that users of your task can discover it._
+=======
+Technically the `desc 'Some description here'` part is optional but it's good practice. Especially if you want to help new users as they can use `rake -T` or `rake --tasks` to get a list of tasks with their descriptions. Try getting a list of tasks for our Rakefile using one of those commands then run the 'date' task with `rake date`.
+
+By default the `rake` command looks for the file `./Rakefile` but you can provide a path to an alternate Rakefile: `rake --rakefile lib/tasks/alternate_path_rakefile.rake date`
+
+## Common types of tasks
+* [RuboCop](https://github.com/bbatsov/rubocop) to check code against style guidelines
+* [RSpec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) for running tests
+* Cleaning out temporary files
+* Regenerating data files to start from a known state
+* Building dependancies from sources; this may includes things like sass to css compliation as well as javascript contatination and minification.
+
+## Other useful things
+* Task inter-dependancy and the 'default' task
+* Taking input via command-line arguments and environment variables
+* Using the shell to run other command-line applications
+* Testing your rake tasks
+* Managing a large number of tasks using namespaces
+* Scheduling rake tasks using cron
+>>>>>>> Complete rebuild of the rake exercise. Introduced the basics but need to further work on both exercises and more advanced material.
