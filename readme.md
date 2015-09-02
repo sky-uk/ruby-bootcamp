@@ -56,6 +56,7 @@ There will be guided workshops throughout the course. These will give you a deep
 * [Sinatra Introduction](workshops/sinatra)
 * [Sinatra Testing with `Rack::Test` and `RSpec`](workshops/rack-test/readme.md)
 * [Domain Specific Language (DSL)](workshops/domain-specific-language/readme.md)
+* [Building a Gem](workshops/building-a-gem/readme.md)
 
 
 ### Final Project
