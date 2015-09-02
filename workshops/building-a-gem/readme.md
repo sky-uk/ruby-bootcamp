@@ -25,5 +25,5 @@ The current implementation of the todo list doesn't allow you to update entries.
 Usage should be as follows:
 
 ```
-todo update 2 "Edited name"
+todo update 2 "Edited task"
 ```
