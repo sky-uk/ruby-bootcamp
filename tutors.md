@@ -439,7 +439,18 @@ An additional task is provided for candidates by expanding on the DSL to add a `
 
 ### Building a Gem
 
-TODO
+The aim of this workshop is to introduce candidates to creating a gem with Bundler and writing a CLI application using TDD.
+
+Key areas to touch on:
+
+* Creating a new gem with `bundle gem todo_manager`
+* Introducing candidates to the directory structure
+* Explanation of how Bundler requires dependencies (with the `gemspec` keyword in the Gemfile)
+* Creating a CLI application using the `./bin` directory and `ARGV`
+* Extending the CLI by adding more supported commands
+* Adding a help manual
+* Adding an "unsupported command" error message
+* Using RSpec to test the client
 
 [Index](#contents)
 
