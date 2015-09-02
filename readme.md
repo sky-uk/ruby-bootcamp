@@ -18,6 +18,7 @@ Things we cover in this course include:
 * Cucumber
 * Rack
 * Sinatra
+* Capybara
 
 
 ## Getting Started
