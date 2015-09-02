@@ -20,6 +20,7 @@ Things covered in this course include:
 * Rack
 * Sinatra
 * Rails
+* Capybara
 
 ## Getting Started
 
