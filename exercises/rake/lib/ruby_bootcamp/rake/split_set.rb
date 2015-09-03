@@ -1,6 +1,6 @@
 require_relative 'split'
 module RubyBootcamp
-  module Rake 
+  module Rake
     class SplitSet < Hash
       class InvalidSplitException < Exception;
       end
@@ -11,7 +11,7 @@ module RubyBootcamp
         end
       end
 
-      def add(id:, value:, percentage:)
+      def add(id: nil, value: nil, percentage: nil)
         raise InvalidSplitException, 'splits must be a Fixnum' unless percentage.is_a?(Fixnum)
         lower = values.last ? values.last.upper : 0
         upper = lower + percentage
