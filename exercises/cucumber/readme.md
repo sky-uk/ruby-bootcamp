@@ -70,10 +70,11 @@ To reset the data in the database:
 
 ### Cucumber's limitations
 
+NB If you find any other limitations that would be useful for other people, please do a pull request and add them in!
+
 Cucumber is only as good as the tools used within it, e.g. Capybara and Rspec.
 It is easy to use Cucumber as a smoke test, e.g. a framework for Capybara mimicking user interaction with the page.
 However speed can make or break a test (links being slow to load, so the step fails).
 It can be quite slow to run.
-If you find any others that would be useful for other people, please do a pull request and add them in!
 
 Ideally, Cucumber scenarios should be short, sweet, and user-friendly.
