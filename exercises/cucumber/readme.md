@@ -36,7 +36,7 @@ See if you can improve the final step!
 
 Run: 
 
-``rake db:seed``
+``RAILS_ENV=test rake db:seed``
 
 to populate the database with a default image, then
 
@@ -46,19 +46,13 @@ to start the server.
 
 ### Running Cucumber
 
-To run all tests in development mode: 
-
-``RAILS_ENV="development" rake cucumber``
-
-(this is required for the example feature, as it relies on data inserted in development mode).
-
-To run one test in development mode: 
-
-``RAILS_ENV="development" rake cucumber features/example.feature``
-
-To run all tests:
+To run all tests: 
 
 ``rake cucumber``
+
+To run one test: 
+
+``rake cucumber features/example.feature``
 
 ### Cucumber hints
 
@@ -70,6 +64,9 @@ If you write your feature file first, then run cucumber:
 
 It will output suggested code to the console.
 
+To reset the data in the database:
+
+``RAILS_ENV=test rake db:reset``
 
 ### Cucumber's limitations
 
