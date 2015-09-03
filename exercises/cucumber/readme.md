@@ -12,7 +12,7 @@ It would be useful (but not essential) to have completed the Rails exercise.
 
 ## Objective
 
-Write a set of cucumber tests that describe the behaviour of the hello_app:
+Write a set of cucumber tests that describe the basic behaviours of the hello_app:
 - Show a picture
 - Edit a picture
 - Cancel editing a picture
