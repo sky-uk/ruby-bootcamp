@@ -31,7 +31,7 @@ By default the `rake` command looks for the file `./Rakefile` but you can provid
 ## Common types of tasks
 * [RuboCop](https://github.com/bbatsov/rubocop) to check code against style guidelines. Try `rake --rakefile lib/tasks/rubocop.rake style` then have a read of the rake task file.
 * [RSpec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) for running tests. Try `rake --rakefile lib/tasks/rspec.rake spec` and take a look at the rake file.
-* Cleaning out temporary files.
+* Cleaning out temporary files. Rake has a built-in helper for cleaning files called 'rake/clean', use `rake --rakefile lib/tasks/clean.rake clean` and `rake --rakefile lib/tasks/clean.rake clobber` to see them in action.
 * Regenerating data files to start from a known state.
 * Building dependancies from sources; this may includes things like sass to css compliation as well as javascript contatination and minification.
 
