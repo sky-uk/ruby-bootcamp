@@ -28,6 +28,12 @@ Note the navigation can go down as well as right!
 
 This exercise is to create a TV guide application.
 
+The application is for the web, but intended for use on mobile phones!
+The wireframe is in 'tv-guide.pdf'.
+You'll only be showing what is on Now & Next.
+
+The challenge here is to give some thought to your database structure and your application URL's
+
 ## Exercise 2
 
 Now you have had the chance to build your own project we'd like you to contribute to sky_stack!
