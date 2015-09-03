@@ -35,7 +35,7 @@ By default the `rake` command looks for the file `./Rakefile` but you can provid
 * Building dependancies from sources; this may includes things like sass to css compliation as well as javascript contatination and minification.
 
 ## Other useful things
-* Task inter-dependancy and the 'default' task
+* Task inter-dependancy and the 'default' task (also `rake -P`)
 * Taking input via command-line arguments and environment variables
 * Using the shell to run other command-line applications
 * Testing your rake tasks
