@@ -28,10 +28,10 @@ Technically the `desc 'Some description here'` part is optional but it's good pr
 By default the `rake` command looks for the file `./Rakefile` but you can provide a path to an alternate Rakefile: `rake --rakefile lib/tasks/alternate_path_rakefile.rake date`
 
 ## Common types of tasks
-* [RuboCop](https://github.com/bbatsov/rubocop) to check code against style guidelines (try `rake --rakefile ./lib/tasks/rubocop.rake style` then have a read of the rake task file)
-* [RSpec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) for running tests
-* Cleaning out temporary files
-* Regenerating data files to start from a known state
+* [RuboCop](https://github.com/bbatsov/rubocop) to check code against style guidelines. Try `rake --rakefile lib/tasks/rubocop.rake style` then have a read of the rake task file.
+* [RSpec](https://www.relishapp.com/rspec/rspec-core/docs/command-line/rake-task) for running tests.
+* Cleaning out temporary files.
+* Regenerating data files to start from a known state.
 * Building dependancies from sources; this may includes things like sass to css compliation as well as javascript contatination and minification.
 
 ## Other useful things
