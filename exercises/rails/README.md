@@ -60,4 +60,6 @@ A standard testing setup would involve **RSpec** and **FactoryGirl**. If these a
 
 Now you have had the chance to build your own project we'd like you to contribute to [sky_stack](https://github.com/sky-uk/sky_stack)!
 
-Take a look at the issues log and pick up something that you'd like to work on. In order to contribute to sky_stack, read the contributing section and follow the instuctions.
+Take a look at the issues log at the issues with the bootcamp tag and pick up something that you'd like to work on. In order to contribute to sky_stack, read the contributing section and follow the instuctions.
+
+These issues have been laid out in a similar way to real issues you'll be working on at Sky. There are a set of acceptance criteria that you should look to meet, along with good test coverage. Happy hacking!
