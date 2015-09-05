@@ -22,7 +22,9 @@ The aim here is to help you:
 
 Our '[Learning Rails](http://slides.com/dtt101/learning-rails)' presentation.
 
-Note the navigation can go down as well as right!
+This is intended to give you a quick overview of the Rail approach and ecosystem, and how Rail is used at Sky.
+
+It's worth giving one of the course team a shout to go through it with you and answer any questions.
 
 ## Exercise 1: TV Guide
 
