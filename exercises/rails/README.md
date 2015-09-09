@@ -26,7 +26,7 @@ This is intended to give you a quick overview of the Rail approach and ecosystem
 
 It's worth giving one of the course team a shout to go through it with you and answer any questions.
 
-## Exercise 1: TV Guide
+## Task 1: TV Guide
 
 The task is to create a simple TV guide using Ruby on Rails. This is a variable task and you can feel free to make this as involved, or as simple as you wish.
 
@@ -44,21 +44,21 @@ Here are a few acceptance criteria:
  - [ ] An editor can create new programmes
  - [ ] An editor can change the start time and end time of a programme
  - [ ] An editor can change the description of a programme
- 
+
 ### Extensions
 
 If you have time to carry on, then there are a few stretch goals you can aim for:
 
 * Expose an API for the TV guide data
 * Pull in extra info about the show using the TVMaze API; http://www.tvmaze.com/api
- 
+
 ### Approach
 
 If possible, avoid using a full model scaffold - you'll probably learn more if you don't use the scaffolding tools. Generate the model using `rails g model ...`, and then feel free to use `rails g scaffold_controller ...` to get your boilerplate views.
 
 A standard testing setup would involve **RSpec** and **FactoryGirl**. If these are added to your Gemfile (and bundle) before you run any of the generators then it should also generate your factories and boilerplate specs.
 
-## Exercise 2
+## Task 2
 
 Now you have had the chance to build your own project we'd like you to contribute to [sky_stack](https://github.com/sky-uk/sky_stack)!
 
