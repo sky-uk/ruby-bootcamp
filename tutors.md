@@ -22,6 +22,7 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [Strings 1](#strings-1)
   * [Strings 2](#strings-2)
   * [Animal Quiz](#animal-quiz)
+  * [Rails](#rails)
 * [Workshops](#workshops)
   * [Logical statements](#logical-statements)
   * [Exceptions](#exceptions)
@@ -336,6 +337,36 @@ There are many ways to solve this quiz (as the Ruby Quiz site proves), but a few
 We've found candidates have gotten stuck on this exercise, specifically around testing the program end-to-end as at first it can be unclear how to test the `puts` and `gets` calls.
 
 Candidates have also become stuck surrounding the application learning from questions and adding that information to an internal database.
+
+[Index](#contents)
+
+
+### Rails
+
+_Found in [`exercises/rails`](exercises/rails)._
+
+There are three components here, with clear learning goals.
+
+Rails is a complex beast, so it is worth investing a little bit of time up front
+running through the learning goals with the student.
+
+The presentation is designed to be delivered by a tutor to a student or group of
+students. It is worth spending time running through it in advance and clarifying
+any ambiguities with one of the Ruby Bootcamp team.
+
+The two exercises are intended to give students a chance to develop their own app.
+
+The TV guide exercise is really about helping students go through an app building
+process from end-to-end, and making some decisions about database structure.
+They should be encouraged to use the Rails stack, and not a front-end JS framework API. If appropriate the tutor can encourage pairing on the project solution.
+If there are any issues the student should be directed towards the Rails Guides
+as they contain all the information you need to complete this project.
+
+The next task is to give them a chance to collaborate in a more real way on
+a project by asking them to look at issues on the Sky Stack app. The tutor
+should make sure they understand the pull request workflow and that there
+is somebody available to review and feedback on the code. If possible the tutor
+can talk through a proposed solution.
 
 [Index](#contents)
 
