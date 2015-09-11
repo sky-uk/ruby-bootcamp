@@ -38,7 +38,7 @@ By default the `rake` command looks for the file `./Rakefile` but you can provid
 ## Other useful things
 * Task [inter-dependancy](./dependancies.md) and the 'default' task (also `rake -P`)
 * [Taking input via command-line arguments and environment variables](./input.md)
-* Using the shell to run other command-line applications
+* [Using the shell](./shell.md) to run other command-line applications
 * Testing your rake tasks
 * Managing a large number of tasks using namespaces
 * Scheduling rake tasks using cron
