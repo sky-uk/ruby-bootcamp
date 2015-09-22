@@ -35,11 +35,11 @@ By default the `rake` command looks for the file `./Rakefile` but you can provid
 * Regenerating data files to start from a known state.
 * Building dependancies from sources; this may includes things like sass to css compliation as well as javascript contatination and minification.
 
-## Other useful things
+## Advanced rake topics
 * Task [inter-dependancy](./dependancies.md) and the 'default' task (also `rake -P`)
 * [Taking input via command-line arguments and environment variables](./input.md)
 * [Using the shell](./shell.md) to run other command-line applications
+* Managing a large number of tasks [using namespaces](./namespacing.md)
 * Testing your rake tasks
-* Managing a large number of tasks using namespaces
 * Scheduling rake tasks using cron
 * What happens if you rely on something that doesn't exist within the context of your environment (e.g. :dev, :test, :production)
