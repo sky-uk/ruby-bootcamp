@@ -32,6 +32,7 @@ The purpose of this guide is to provide information for anyone delivering this l
   * [Domain Specific Language (DSL)](#domain-specific-language-dsl)
   * [Building a Gem](#building-a-gem)
 * [Useful Resources](#useful-resources)
+* [Style Guide](style.md)
 
 
 ## Slack
