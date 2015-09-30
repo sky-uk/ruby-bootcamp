@@ -27,10 +27,10 @@ Workshops should consist of the following components:
 
 * **Introduction** - A brief explanation of the workshop and it's expected outcomes
 * **Example usage** - The final code that should be produced at the end of the workshop
-* **Walk-through** - A prompt for the workshop to be given (e.g. _Coding walk-through to be done in person with group_)
+* **Walk-through** - A prompt for the workshop to be given
 * **Solutions** - Links to solutions for the workshop, these may be used by the coach during the workshop
-* **Extensions** - Any extensions candidates may take on following the workshop (e.g. expand on the code shown by adding X), this step is optional
-* **Notes** - Any tips which may be useful to candidates (e.g. explaining why a certain approach has been taken over alternatives)
+* **Extensions** - Any extensions candidates may complete following the workshop (for example expanding on the code shown by adding a certain feature)
+* **Notes** - Any tips which may be useful to candidates (for example explaining why a certain approach has been taken over alternatives)
 
 Workshops should be live coded where possible to show the working program being built piece by piece. Coaches should stop where appropriate to allow discussion and questions.
 
@@ -39,4 +39,3 @@ Workshops should be live coded where possible to show the working program being 
 
 * This style guide is not set in stone, the guild should craft it to however they wish to build the materials, but a unified approach is required to ensure the bootcamp feels consistent and clear to candidates
 * For more information, please consult the [tutors guide](tutors.md)
-g
