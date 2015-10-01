@@ -23,7 +23,6 @@ task :date do
   puts 'The date today is: ' + Time.new.strftime('%d/%m/%y')
 end
 ```
-
 Technically the `desc 'Some description here'` part is optional but it's good practice. Especially if you want to help new users as they can use `rake -T` or `rake --tasks` to get a list of tasks with their descriptions. Try getting a list of tasks for our Rakefile using one of those commands then run the 'date' task with `rake date`.
 
 By default the `rake` command looks for the file `./Rakefile` but you can provide a path to an alternate Rakefile. This isn't common but we're using it in this exercise to keep the examples isolated from each other and easier to understand, try this: `rake --rakefile lib/tasks/alternate_path_rakefile.rake date`
