@@ -1,0 +1,25 @@
+<%= form_for(@dog_picture) do |f| %>
+  <% if @dog_picture.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dog_picture.errors.count, "error") %> prohibited this dog_picture from being saved:</h2>
+
+      <ul>
+      <% @dog_picture.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
