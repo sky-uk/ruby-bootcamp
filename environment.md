@@ -49,7 +49,7 @@ rbenv install 2.2.3
 
 ## Checkout the bootcamp materials
 
-The [ruby-bootcamp](https://github.com/Ladtech/ruby-bootcamp) repository is the starting point for the bootcamp. You'll want to [fork the repository](https://github.com/Ladtech/ruby-bootcamp) and clone it locally. Start by reading the [readme](https://github.com/Ladtech/ruby-bootcamp/blob/master/readme.md).
+The [ruby-bootcamp](https://github.com/sky-uk/ruby-bootcamp) repository is the starting point for the bootcamp. You'll want to [fork the repository](https://github.com/sky-uk/ruby-bootcamp) and clone it locally. Start by reading the [readme](https://github.com/sky-uk/ruby-bootcamp/blob/master/readme.md).
 
 
 ## Setup Floobits
