@@ -40,5 +40,5 @@ By default the `rake` command looks for the file `./Rakefile` but you can provid
 * [Using the shell](./shell.md) to run other command-line applications
 * Managing a large number of tasks [using namespaces](./namespacing.md)
 * [Testing](./testing.md) your rake tasks
-* Scheduling rake tasks using cron
+* [Scheduling](./scheduling.md) rake tasks using cron
 * What happens if you rely on something that doesn't exist within the context of your environment (e.g. :dev, :test, :production)
