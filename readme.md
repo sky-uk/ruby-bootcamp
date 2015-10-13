@@ -15,7 +15,7 @@ Things covered in this course include:
 * Modules
 * Blocks and procs
 * RSpec
-* Rake
+* [Rake](./exercises/rake)
 * Cucumber
 * Rack
 * Sinatra
