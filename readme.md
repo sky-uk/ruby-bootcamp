@@ -5,6 +5,10 @@
 
 Welcome to the Ruby Bootcamp. The bootcamp is a conversion course, designed to take programmers who are versed in another language and teach them Ruby.
 
+This material is licenced under the Creative Commons licence
+[![CC BY-NC 4.0 licence badge](https://licensebuttons.net/l/by-nc/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/).
+Please [contribute](CONTRIBUTING.md) and share.
+
 Things covered in this course include:
 
 * Debugging
