@@ -14,7 +14,6 @@ You will need the following bits and pieces:
 
 * Access to Safari Books Online
 * Access to Pluralsight
-* Get access to codeschool
 
 ## Checkout the bootcamp materials
 
