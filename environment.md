@@ -17,7 +17,7 @@ You will need the following bits and pieces:
 
 ## Checkout the bootcamp materials
 
-The [ruby-bootcamp](https://github.com/lvl-up/ruby-bootcamp-fil) repository is the starting point for the bootcamp. You'll want to [fork the repository](https://github.com/lvl-up/ruby-bootcamp-fil) and clone it locally. Start by reading the [readme](https://github.com/lvl-up/ruby-bootcamp-fil/blob/master/readme.md).
+The [ruby-bootcamp](https://github.com/lvl-up/ruby-bootcamp-fil) repository is the starting point for the bootcamp. You'll want to clone it locally. Start by reading the [readme](https://github.com/lvl-up/ruby-bootcamp-fil/blob/master/readme.md).
 
 ## Install Ruby
-From the terminal, cd in to where you have checked out the bootcamp repo and run `.setup.sh`
+From the terminal, cd in to where you have checked out the bootcamp repo and run `./setup.sh`
