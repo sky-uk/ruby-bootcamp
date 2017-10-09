@@ -43,7 +43,7 @@ bob = Cat.new(name: 'bob', age: 35)
 bob.learn_new_trick(:answer_the_phone) #> Raises ToBusySleepingError
 ``` 
 
-# Catch an Error
+### 3. Catch an Error
 The cats built using the`Cat` are pretty clever. They know how to divide numbers! Problem is they don't know what to do when the second of those numbers is 0... Enhance the code for the skill to catch the divide by 0 error when if it happens and return nil instead.
 
 ```RUBY
