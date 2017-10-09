@@ -40,7 +40,7 @@ end
 billy.tricks #=> [:answer_the_phone]
 
 bob = Cat.new(name: 'bob', age: 35)
-bob.learn_new_trick(:answer_the_phone) #> Raises ToBusySleeingError
+bob.learn_new_trick(:answer_the_phone) #> Raises ToBusySleepingError
 ``` 
 
 # Catch an Error
