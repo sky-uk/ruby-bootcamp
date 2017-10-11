@@ -3,8 +3,8 @@ require_relative 'trick'
 class Cat
   attr_reader :tricks
 
-  # This constructor take named parameters, If you've not seen them before then
-  # have a read. They can be pretty useful and in the write cricumstances can
+  # This constructor takes named parameters, If you've not seen them before then
+  # have a read. They can be pretty useful and in the right circumstances can
   # make your code more readable
   def initialize(age:, name:)
     @name = name
