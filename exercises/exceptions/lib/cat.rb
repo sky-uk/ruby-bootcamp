@@ -34,7 +34,3 @@ class Cat
     age * 4
   end
 end
-
-kitty = Cat.new(age: 35, name: 'billy')
-kitty.print_age_in_human_years
-puts kitty.do_trick(:divide, 5,0)
